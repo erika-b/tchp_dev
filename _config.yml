@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: erika-b.github.io
+#url: erika-b.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
 #baseurl: /tchp_dev
 # location of code, the full url to your github repository
-source-code: https://github.com/erika-b/tchp_dev
+source-code: "https://github.com/erika-b/tchp_dev"
 
 ##########
 # SITE SETTINGS
@@ -49,7 +49,7 @@ metadata: tchp_metadata
 # contentdm collection name, matches collection ID used by CDM
 cdm-collection-id: Tacoma Community History Project
 # CONTENTdm server url
-cdm-url: https://content.lib.washington.edu/
+cdm-url: "https://content.lib.washington.edu/"
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
