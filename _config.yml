@@ -47,9 +47,9 @@ author: erika-b
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
 metadata: tchp_metadata
 # contentdm collection name, matches collection ID used by CDM
-cdm-collection-id: Tacoma Community History Project
+cdm-collection-id: tacomacomm
 # CONTENTdm server url
-cdm-url: "https://content.lib.washington.edu/"
+cdm-url: https://digitalcollections.lib.washington.edu/
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -75,7 +75,7 @@ cdm-url: "https://content.lib.washington.edu/"
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
- noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
