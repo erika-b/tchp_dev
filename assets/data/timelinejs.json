@@ -1,0 +1,1178 @@
+{
+    "title": {
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//digital/iiif/tacomacomm//full/max/0/default.jpg",
+          "caption": null,
+          "credit": "TCHP Demo"
+        },
+        "text": {
+          "headline": "TCHP Demo Timeline",
+          "text": "CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s."
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/14",
+          "caption": "A Brief Study of Land Use by Indian and Pioneer Communities on the Key Peninsula",
+          "link": "/tchp_dev/items/tchp14.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "A Brief Study of Land Use by Indian and Pioneer Communities on the Key Peninsula",
+          "text": "The interview discusses Bill Otto's family and German heritage, his work in the lumber industry and as a family farmer. He also describes childhood activities in Longbranch, Washington, including playing baseball on a championship youth league baseball team in Pierce County."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/18",
+          "caption": "Italians in Hilltop",
+          "link": "/tchp_dev/items/tchp18.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Italians in Hilltop",
+          "text": "The collection contains two interviews with Bob Gallucci, in which he discusses his experiences growing up as a second generation Italian American within a first generation immigrant extended family household in the Hilltop neighborhood of Tacoma, Washington during the pre- and post World War II years. Gallucci describes the attitudes of his immigrant parents, what life in Hilltop was like during the early and mid twentieth century, the current (1990s) problems of Hilltop, and his reasons for becoming active in issues relating to peace and social justice."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/25",
+          "caption": "Why Internment? The Story of Japanese-Americans During World War II",
+          "link": "/tchp_dev/items/tchp25.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Why Internment? The Story of Japanese-Americans During World War II",
+          "text": "The interview recounts Joseph Kosai's personal experiences as a Japanese American citizen forced to evacuate his Tacoma, Washington residence on May 18, 1942 in response to the issuing of Executive Order 9066. Joseph, who was eight at the time, was transported with family members, first, to an assembly center in Pinedale, California, then to Tule Lake, where Kosai's extended family was dispersed and sent to different camps. Joseph, his mother, and younger sister were sent to the Minidoka Relocation Center in Idaho, where they would remain until May 17, 1945. In the interview, Kosai recalls his impressions of life in the internment camp. He also describes his readjustment after being released from Minidoka, as well as the impact of discrimination upon his subsequent educational and career opportunities. He also discusses his involvement in the national redress movement and other civil rights issues."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/29",
+          "caption": "The Timber Challenge",
+          "link": "/tchp_dev/items/tchp29.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "The Timber Challenge",
+          "text": "The interview discusses Eudoro Estrada's life in Mexico, his struggles when he first arrived in the United States, and his efforts to start and maintain what became a successful reforestation business. Estrada also describes his family life and briefly touches upon the discrimination he encountered as a Mexican American businessman in Washington State."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/49",
+          "caption": "The Tacoma Rescue Mission: Hope for the Homeless",
+          "link": "/tchp_dev/items/tchp49.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "The Tacoma Rescue Mission: Hope for the Homeless",
+          "text": "The oral history interview transcript contains interviews with Joe Ellis, Executive Director of the Tacoma Rescue Mission and Diana K. Jeffery, Administrative Assistant at the Mission. Ellis gives a brief background on his life and training, as well as an overview of the history of the Tacoma Rescue Mission, including some discussion of the work and character of the superintendents who preceded him (C. M. Shaughnessy, Ray L. Marvin and G. Hanley Barker). Ellis describes the programs and services provided by the Tacoma Rescue Mission in some detail. Jeffery recounts her ten years of service with the Mission, where she started as the manager of the emergency family shelter. She describes her direct work with the clients and refers to some individuals who apparently were present at the time her interview was recorded. In addition to those for Ellis and Jeffery, release forms are included for five participants from the \"\"New Life\"\" program who also were interviewed, as well as another Mission staff member, but these interviews are not contained in the transcript."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/54",
+          "caption": "Oral history interview with Thomas Shoji Takemura",
+          "link": "/tchp_dev/items/tchp54.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Oral history interview with Thomas Shoji Takemura",
+          "text": "The interview recounts Thomas Shoji Takemura's early childhood and family life on a truck gardening farm in Fife, Washington before the start of the Second World War, as well as their forced evacuation to the Assembly Center in Puyallup, Washington. Takemura's experience of camp life is recalled in some detail. During this time, neighbors agreed to take care of the family's property. Takemura eventually obtained a release to work at a U & I factory processing sugar beets in Chinook, Montana, where he met his future wife. He also discusses his involvement in the national redress movement and related lecturing at local area schools."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/62",
+          "caption": "Hillside Community Church: A Path to Liberalism",
+          "link": "/tchp_dev/items/tchp62.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1992"
+        },
+        "text": {
+          "headline": "Hillside Community Church: A Path to Liberalism",
+          "text": "The collection contains a lengthy interview with Milton P. Andrews Jr., in which he discusses his experiences growing up as the son of a fundamental (Free Methodist Church) preacher in Missouri, his education, religious training, and his own spiritual and philosophical shift to a more progressive brand of religion and into activism for social justice. Andrews details his controversial tenure as the leader of several churches in Ohio, New York and Washington State, including Epworth Lesourd Methodist Church in Tacoma, where his stance against the Vietnam War led to his forced resignation in 1970. The interview only briefly touches on Andrews's involvement with the Hillside Community Church."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/74",
+          "caption": "The History of Council 28: The Washington Federation of State Employees",
+          "link": "/tchp_dev/items/tchp74.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1992"
+        },
+        "text": {
+          "headline": "The History of Council 28: The Washington Federation of State Employees",
+          "text": "Union leaders and activists, Norm Schut, George Masten, Howard Jorgenson, Gary Moore and Esther Stohl discuss their early lives, how they came to be involved with organizing, and their roles in the development of the WFSE local in Washington State."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/81",
+          "caption": "History of the Tacoma Smelter and Its Workers",
+          "link": "/tchp_dev/items/tchp81.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1992"
+        },
+        "text": {
+          "headline": "History of the Tacoma Smelter and Its Workers",
+          "text": "The interviews with both Curtis Dungey and Chuck O'Donahue discuss their association with the Tacoma Smelter and ASARCO. O'Donahue, who worked at the plant for over twenty years (1963-1985), also was active as a union leader for Local 25. Dungey was the senior environmental scientist for ASARCO who oversaw the closure of the plant."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/90",
+          "caption": "Tacoma  - 1717 South Fawcett, Tacoma, WA: A Brief Historical Perspective",
+          "link": "/tchp_dev/items/tchp90.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1992"
+        },
+        "text": {
+          "headline": "Tacoma  - 1717 South Fawcett, Tacoma, WA: A Brief Historical Perspective",
+          "text": "This project includes interviews with the then minister of Tacoma Buddhist Temple, Reverend Kosho Yukawa, and Mrs. Yaeko Nakano, a longtime member of Tacoma Buddhist Temple and its principal organist. Yukawa describes Buddhist religious practices, the activities of the Temple and its various organizations, his family, and Sunya Pratt. Nakano discusses her family life growing up as a Japanese American in Tacoma, Washington during the Depression, her education, internment experiences during the Second World War, her training and work as a musician, and her involvement with the Tacoma Buddhist Temple in many capacities."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/103",
+          "caption": "Tacoma Friends Meeting",
+          "link": "/tchp_dev/items/tchp103.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1992"
+        },
+        "text": {
+          "headline": "Tacoma Friends Meeting",
+          "text": "Leonard Holden, founder of the Tacoma Friends Meeting, and Julius Jahn, a long-time member of the Religious Society of Friends, talk about the history of the Quakers and reflect on the personal experiences and revelations that inspired them to become pacifists and Conscientious Objectors. Holden shares his efforts in establishing a permanent Quaker meeting place in the Tacoma area, and Jahn describes his experiences with various Quaker groups and sects throughout the United States. Both men expound on the various services and humanitarian projects that the Tacoma Friends Meeting has been involved in, from draft counseling services to collaborative efforts with other churches to rehabilitate low-income housing."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/114",
+          "caption": "Squaxin Island Lives",
+          "link": "/tchp_dev/items/tchp114.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1993"
+        },
+        "text": {
+          "headline": "Squaxin Island Lives",
+          "text": "Tribal members Mark, Calvin, and Josephine Peters and James Krise share their connections to Squaxin Island, a reservation located in the southern part of Puget Sound. Interviewees recount stories from their childhood and describe some of the hardships faced by Puget Sound Native Americans during and after the Great Depression. Mark and Calvin Peters, both tribal fishermen, also comment on the 1974 Boldt Decision, which reaffirmed fishing rights for Washington tribes."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/119",
+          "caption": "Tacomas Nihon Go Gakko, Japanese Language School",
+          "link": "/tchp_dev/items/tchp119.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1993"
+        },
+        "text": {
+          "headline": "Tacomas Nihon Go Gakko, Japanese Language School",
+          "text": "Sisters Tadaye \"Teddy\" Kawasaki, Yoshiko Sugiyama, Kimi Tanbara, and friend Sadako Hirose recall their school years at Tacomas Nihon Go Gakko (Japanese Language School) and describe life within the citys Japanese-American community during the 1920s, 30s, and 40s. They provide an extensive history of the school building, including its designation as a registration center following Executive Order 9066 and its use as a hostel for Japanese-Americans returning home from internment camps."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/124",
+          "caption": "Actions Speak Louder Than Words: Helen Cecile Beck Stafford",
+          "link": "/tchp_dev/items/tchp124.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1993"
+        },
+        "text": {
+          "headline": "Actions Speak Louder Than Words: Helen Cecile Beck Stafford",
+          "text": "Community leader Helen Stafford shares her life story, describing her childhood in Kansas and her experiences as a young African-American woman in Depression-era Tacoma. Reflecting back on over sixty years of civic involvement, Stafford comments on her work with the Matron's Club, the NAACP, the Alpha Kappa Alpha sorority, and the Washington Public Employees Association labor union. She also provides numerous insights into the changing face of Tacoma after World War II."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/134",
+          "caption": "Civil Rights and Civic Pride: The Story of Harold G. Moss and the City of Tacoma",
+          "link": "/tchp_dev/items/tchp134.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1993"
+        },
+        "text": {
+          "headline": "Civil Rights and Civic Pride: The Story of Harold G. Moss and the City of Tacoma",
+          "text": "Harold Moss reflects on his forty years of social activism in the Tacoma community and shares stories about the citys gradual shift toward racial integration and equality during the 1950s, 60s, and 70s. He also discusses his childhood in Detroit, his early campaigns for public office, and his eventual appointment to the city council in 1970, earning him the distinction of being the first African-American to hold a public office in Pierce County. An addendum includes quotations from Mosss inaugural speech after being appointed Mayor of Tacoma in 1994, the first African-American to serve in that capacity."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/142",
+          "caption": "The Safe Streets Campaign: Tacoma and Pierce County Respond to Youth Violence",
+          "link": "/tchp_dev/items/tchp142.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1994"
+        },
+        "text": {
+          "headline": "The Safe Streets Campaign: Tacoma and Pierce County Respond to Youth Violence",
+          "text": "Pierce County Councilman Dennis Flannigan, Safe Streets program coordinator Greg Kleiner, and Deputy City Manager Jim Walton talk about their involvement with Tacomas Safe Streets Campaign. Interviewees discuss the programs short-term and long-term goals and describe some of the difficulties in organizing grassroots movements."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/155",
+          "caption": "African American Life in Tacoma",
+          "link": "/tchp_dev/items/tchp155.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1994"
+        },
+        "text": {
+          "headline": "African American Life in Tacoma",
+          "text": "Sisters and lifelong Tacoma residents Louise Turner and Bernice Canada share their family history and reflect on how the city's racial attitudes have changed during their lifetimes. They describe their experiences as African Americans growing up in turn-of-the-century Tacoma and comment on the rise of segregation during and after the World Wars. Turner and Canada also touch on their work as Eucharistic ministers. The interview concludes with their thoughts on the importance of family values."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/160",
+          "caption": "Senator Rosa D. Franklin: Small-Town Person, Big-City Activist",
+          "link": "/tchp_dev/items/tchp160.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1995"
+        },
+        "text": {
+          "headline": "Senator Rosa D. Franklin: Small-Town Person, Big-City Activist",
+          "text": "Washington State Senator Rosa Franklin talks about her nursing career and her political involvement at the local and state levels. She touches on her work with the Hilltop Children's Clinic and other outreach healthcare programs and addresses issues relating to health care reform and the nursing profession. Throughout both interviews, she emphasizes the importance of maintaining healthy communities and encouraging citizens to take a more active role in the political process."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/169",
+          "caption": "The History of Murray and Rosa Morgan",
+          "link": "/tchp_dev/items/tchp169.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1998"
+        },
+        "text": {
+          "headline": "The History of Murray and Rosa Morgan",
+          "text": "Murray and Rosa Morgan share their life stories, recalling key events from Tacoma's history and reflecting back on their numerous adventures around the globe. Murray discusses his sixty-year career as a journalist and historian, including his time as a night news editor for CBS in New York and his time as a U.S. Army code clerk stationed in the Aleutian Islands. In the second interview, Rosa describes her eclectic career as a proofreader, copy editor, photographer, teacher, researcher, and reference librarian."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/178",
+          "caption": "The Changing Peoples of Hilltop",
+          "link": "/tchp_dev/items/tchp178.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "The Changing Peoples of Hilltop",
+          "text": "Long-time resident Charles Walker reflects back on thirty years of Hilltop history and describes the areas shifting demographics during the 1960s, 70s, and 80s. A retired businessman, Walker focuses in particular on the K Street Business District and the local economic impact of the 1970s recession. He also comments on his work with the Tacoma Urban League, the Black Businessmen's Association, and the Now, Mr. Lincoln program."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/182",
+          "caption": "An Interview with Luke Joinette",
+          "link": "/tchp_dev/items/tchp182.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "An Interview with Luke Joinette",
+          "text": "Luke Joinette, former Executive Board member and secretary-treasurer for the Tacoma chapter of the Hotel and Restaurant Employees and Bartenders International League, discusses his work with the Local 61 labor union. Recounting the events surrounding the unions 1969 strike, Joinette reflects on the confrontations between picketers and employers and between the local chapter and its national affiliate. He concludes with some thoughts on the current state of the Local 8, the newest incarnation of the Local 61, and on the unions sharp decline in membership since the 1970s."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/188",
+          "caption": "Tacoma Judaism: One Hundred Years",
+          "link": "/tchp_dev/items/tchp188.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1992"
+        },
+        "text": {
+          "headline": "Tacoma Judaism: One Hundred Years",
+          "text": "The interviews with three members of Tacoma's Jewish community, Richard Rosenthal, Steph Farber, and Ruth Hurst, to some degree all touch upon the exodus of businesses (many of them Jewish-owned) from the downtown Tacoma business district. In two interview segments, Rabbi Rosenthal discusses early Jewish settlement in Tacoma, the 1960 merger of existing Conservative and Reform congregations to form Temple Beth El, and adds some details about his early life and training. Farber recounts his beliefs about misguided urban renewal practices of the 1960s and 1970s and reminisces about the many businesses that once flourished in downtown Tacoma. The transcript of the interview with Hurst appears to provide only an excerpt; she discusses her family business, Feist & Bachrach, as well as other downtown Tacoma stores operating prior to 1965."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/207",
+          "caption": "St. Leo the Great Parish - Tacoma, Washington",
+          "link": "/tchp_dev/items/tchp207.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1992"
+        },
+        "text": {
+          "headline": "St. Leo the Great Parish - Tacoma, Washington",
+          "text": "Community members and church leaders reflect on the history and legacy of St. Leo Church, a Jesuit parish located in Tacomas Hilltop neighborhood. Long-time parishioners Patricia Ditter and Barbara Thomashofski and former parishioner Doris Barkley discuss the churchs growing pains in the wake of Vatican II and the subsequent emergence of its social justice ministry. Reverend David Alger, director of Associated Ministries, describes some of St. Leos numerous out-reach programs and shares his thoughts on its position as a spiritual anchor within the community. Lastly, Father Bill Bichsel, a former associate pastor at St. Leos and a well-known social activist, discusses his commitment to social justice and his involvement with several church-related projects, such as the Martin Luther King Center."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/217",
+          "caption": "From Tules to Tiaras: A History of the Masonic Temple Building and Temple Theatre",
+          "link": "/tchp_dev/items/tchp217.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1992"
+        },
+        "text": {
+          "headline": "From Tules to Tiaras: A History of the Masonic Temple Building and Temple Theatre",
+          "text": "Will James Conner talks about his fifty years in the theater management business and shares some of the history of the Temple Theatre, which he ran from 1932 to 1975. Reflecting back on hundreds of stage shows, music productions, and motion pictures, Conner provides some insight into the changing face of entertainment and entertainment technology before, during, and after World War II. In addition to the Temple, Conner also managed a number of other Tacoma theaters, including the Blue Mouse, the Music Box, the Rialto, and the Roxy (now the Pantages), and he touches upon each of these during this lengthy, in-depth interview."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/223",
+          "caption": "A Blue Collar Town: The Tacoma Labor Movement",
+          "link": "/tchp_dev/items/tchp223.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1993"
+        },
+        "text": {
+          "headline": "A Blue Collar Town: The Tacoma Labor Movement",
+          "text": "Ottilie Markholt talks about her involvement with various Pierce County labor unions, including the Metal Trades Council and the Office Employees Union, and shares some historical perspective on the Tacoma labor movement. A noted author and historian, Markholt also describes her efforts in chronicling the histories of individual union chapters and their national affiliates and provides commentary on a series of photographs showcasing union activities during the 1920s, 1930s, and 1940s."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/234",
+          "caption": "American Lake Veterans Affairs Medical Center",
+          "link": "/tchp_dev/items/tchp234.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1993"
+        },
+        "text": {
+          "headline": "American Lake Veterans Affairs Medical Center",
+          "text": "Four female veterans reflect on their military careers and share their connections to the Veterans Affairs Medical Center at American Lake. Ruth Nordstrom, a long-time volunteer at American Lake, describes her time as an office clerk for WAAC (Womens Army Corp) during World War II and for WAF (Women in the Air Force) during the Korean War. Anne Gregory, a psychiatric nurse, talks about her experiences in Vietnam as a member of the Army Nurse Corps. Linda Wilhelm, a resident of the domiciliary, discusses her service time in the US Navy during the Vietnam era and describes some of the difficulties she faced as a gay woman in the military. Ren Wilson, a former domiciliary resident, recounts the high and low points of her Army career and talks about the social barriers she encountered as an African-American female officer. All interviewees comment on how the VA can better serve female veterans."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/244",
+          "caption": "Swiss immigration",
+          "link": "/tchp_dev/items/tchp244.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1994"
+        },
+        "text": {
+          "headline": "Swiss immigration",
+          "text": "Joseph and Katy Schibig and Joseph Marty describe their experiences as Swiss immigrants to Tacoma and reflect on the legacy of the citys close-knit Swiss community. Areas of focus include the Tacoma Swiss Society and the Swiss Hall and Tavern, which Marty managed from 1952 to 1963."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/249",
+          "caption": "Winning the Hearts and Minds of Fort Lewis and McChord GIs During the Vietnam Era",
+          "link": "/tchp_dev/items/tchp249.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1994"
+        },
+        "text": {
+          "headline": "Winning the Hearts and Minds of Fort Lewis and McChord GIs During the Vietnam Era",
+          "text": "Michael Royce discusses his time as a civil rights activist in the South and shares his thoughts on college life during the tumultuous 1960s. Drafted into the army following his graduation from college in 1968, Royce reflects on his military experience at Fort Lewis and talks about his involvement with the Lewis-McChord Free Press, an underground anti-war newspaper."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/256",
+          "caption": "A concrete look at our community",
+          "link": "/tchp_dev/items/tchp256.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1994"
+        },
+        "text": {
+          "headline": "A concrete look at our community",
+          "text": "Dr. Thomas W. Anderson, co-founder of Concrete Technology Corporation (CTC), shares his personal history and gives an economic and historical overview of CTC, the first prestressed concrete manufacturing plant in the U.S. He discusses CTC's pioneering role in the prestressed concrete industry, its major milestones, and its philosophy of corporate responsibility."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/268",
+          "caption": "Peter C. Stanup: A Leader Among the Generous People",
+          "link": "/tchp_dev/items/tchp268.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1998"
+        },
+        "text": {
+          "headline": "Peter C. Stanup: A Leader Among the Generous People",
+          "text": "Puyallup Tribal Elder Lena Landry and Puyallup Tribal Historian Judy Wright discuss the plight of Pacific Northwest Native Americans during the late nineteenth and early twentieth centuries and reflect on the life of Peter Stanup, a Puyallup tribal leader and activist whose 1893 death remains a source of enduring controversy. Charles Thomas, Peter Stanup's great-grandson, also shares his family's quest to uncover their history and their discovery of their connection to Stanup."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/287",
+          "caption": "A Tradition of Excellence: The Sonntags and Public Service",
+          "link": "/tchp_dev/items/tchp287.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1994"
+        },
+        "text": {
+          "headline": "A Tradition of Excellence: The Sonntags and Public Service",
+          "text": "This collection of interviews explores the personal and political history of the Sonntag family. Jean Sonntag and George Sheridan provide background details about former Pierce County Auditor Jack Sonntag, Sr., while Sonntag's sons (Jack, Richard, and Brian) discuss how their father's legacy has shaped their lives and their own political careers. Area of focus include Jack Sonntag, Sr.'s political philosophy, the evolution of Tacoma's political power structure, and notable accomplishments from each of the Sonntag's public service careers."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/294",
+          "caption": "Discrimination is the Bosses Tool: Tacoma Longshore Unions and African Americans",
+          "link": "/tchp_dev/items/tchp294.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2007"
+        },
+        "text": {
+          "headline": "Discrimination is the Bosses Tool: Tacoma Longshore Unions and African Americans",
+          "text": "Retired longshoreman Roger Coleman describes the working environment at the Port of Tacoma during the 1960s and 1970s and comments on the racial attitudes and trends among workers. He also discusses the history of the International Longshore and Warehouse Union and its local affiliate, Local 23."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/300",
+          "caption": "The Community of Day Island",
+          "link": "/tchp_dev/items/tchp300.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1993"
+        },
+        "text": {
+          "headline": "The Community of Day Island",
+          "text": "Day Island residents Gerry Garrison, Marion Van Winkle, and Marylou Hanford share stories about their unique community and discuss the major social and cultural changes that have taken place on the island."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/314",
+          "caption": "Lorraine Elizabeth Joseph: Puyallup Tribal Elder",
+          "link": "/tchp_dev/items/tchp314.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2008"
+        },
+        "text": {
+          "headline": "Lorraine Elizabeth Joseph: Puyallup Tribal Elder",
+          "text": "Puyallup tribal elder Lorraine Joseph shares the history of the Indian Shaker Church and discusses how faith and prayer have shaped her life."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/323",
+          "caption": "Nurses Need to be Taken Care of, Too: Stories of Black Nurses in the Workplace",
+          "link": "/tchp_dev/items/tchp323.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2011"
+        },
+        "text": {
+          "headline": "Nurses Need to be Taken Care of, Too: Stories of Black Nurses in the Workplace",
+          "text": "Adriene Tillman and Shirley Aikin examine the social trends and attitudes that have shaped their experiences as African-American nurses. Particular attention is paid to the interviewees involvement with the Ebony Nurses Association of Tacoma, a local organization that provides professional and personal support to its members. Other topics of discussion include Tillmans union activity with the Washington State Nurses Association, Aikins teaching career at Pacific Lutheran University, and the current strengths and weaknesses of the nursing profession."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/329",
+          "caption": "Patty Rose, Pierce County Central Labor Council",
+          "link": "/tchp_dev/items/tchp329.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2011"
+        },
+        "text": {
+          "headline": "Patty Rose, Pierce County Central Labor Council",
+          "text": "Patty Rose gives an overview of her nearly four decades of involvement with the Tacoma labor movement and discusses her current position as secretary-treasurer for the Pierce County Central Labor Council. She describes the PCCLCs role as an umbrella organization and talks about the specific political and educational resources that are gathered on behalf of members. She also comments on some of the pressing issues currently faced by labor unions and American workers in general, including outsourcing, rising healthcare costs, and loss of pension benefits."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/335",
+          "caption": "Splendid Gestures: Gloria Stancich and the Gay/Lesbian Community in Tacoma",
+          "link": "/tchp_dev/items/tchp335.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2011"
+        },
+        "text": {
+          "headline": "Splendid Gestures: Gloria Stancich and the Gay/Lesbian Community in Tacoma",
+          "text": "Highlights from the personal story of Gloria Stancich, longtime civil rights activist and community leader, are discussed and placed in historical context. An active participant in numerous LGBTQ organizations, Stancich describes her path to civic involvement and personal acceptance, which includes a marriage, divorce, and eventual coming out to her son and family."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/340",
+          "caption": "Guadalupe House",
+          "link": "/tchp_dev/items/tchp340.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2011"
+        },
+        "text": {
+          "headline": "Guadalupe House",
+          "text": "Theresa Power-Drutis discusses her involvement with Guadalupe House and other G Street Community projects. A carpenter and lifelong activist, Power-Drutis recounts her arrival in Tacoma in 1979 and describes the sense of social justice and community pride that has driven Hilltops recent revival. Father Bill Bichsel, social activist and co-founder of the G Street Community, is also discussed at length."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/345",
+          "caption": "Serving on the USS Mason: Breaking Racial Barriers in the U.S. Navy",
+          "link": "/tchp_dev/items/tchp345.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2011"
+        },
+        "text": {
+          "headline": "Serving on the USS Mason: Breaking Racial Barriers in the U.S. Navy",
+          "text": "World War II veteran Merwin Peters shares the history of the USS Mason and describes his experiences as an African-American sailor serving just prior to military desegregation. Frequent references are made to Mary Pat Kelly, whose 1995 book \"\"Proudly We Served: The Men of the USS Mason\"\" brought the story of the Mason and her crew to public attention."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/355",
+          "caption": "Women and Tacomas Civil Rights Movement: Mrs. Bil Moss",
+          "link": "/tchp_dev/items/tchp355.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2009"
+        },
+        "text": {
+          "headline": "Women and Tacomas Civil Rights Movement: Mrs. Bil Moss",
+          "text": "Community leader Bil Moss looks back at six decades of social activism and discusses her involvement in Tacomas civil rights movement. She describes her early work to secure open housing in Tacoma, which arose from her personal struggles to purchase property outside the Hilltop area, and her work with the Tacoma Chapter of the Links on the Sickle Cell Project. Moss touches on a number of her civic and political activities in these three lengthy interviews and shares some insights into the social barriers she has faced as an African-American woman."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/360",
+          "caption": "Carrie Little and the Tacoma Community Gardening Movement",
+          "link": "/tchp_dev/items/tchp360.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2011"
+        },
+        "text": {
+          "headline": "Carrie Little and the Tacoma Community Gardening Movement",
+          "text": "Carrie Little discusses the recent revival of community-based agriculture and shares her personal connection to several community gardening projects in and around Tacoma. She describes the development of the Guadalupe Land Trust, a local organization that manages community garden plots on Hilltop, and also talks about Mother Earth Farm in Puyallup."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/368",
+          "caption": "Mexican-Americans from Mexico to Washington State: Discrimination and Segregation in the Memory of One Witness",
+          "link": "/tchp_dev/items/tchp368.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2007"
+        },
+        "text": {
+          "headline": "Mexican-Americans from Mexico to Washington State: Discrimination and Segregation in the Memory of One Witness",
+          "text": "Jenaro Castaeda, a former migrant worker, describes life growing up in a post-World War II farm labor camp and comments on the social barriers he has faced as a Mexican-American. He also touches on his work with the Washington State Office of Minority and Womens Business Enterprises and expresses his hopes for greater recognition and understanding of Washingtons minority communities."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/377",
+          "caption": "La-Sy-El: Daughter of Swinomish",
+          "link": "/tchp_dev/items/tchp377.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2007"
+        },
+        "text": {
+          "headline": "La-Sy-El: Daughter of Swinomish",
+          "text": "Faye Cabrini Bates shares her life story and recounts details from her social justice career, focusing in particular on her work with at-risk Native American youth and with St. Leo Churchs outreach programs. A long-time Indian rights activist, she comments on some of the political and social obstacles currently faced by Native American communities. Her father, Elder Martin Sampson of the Swinomish Tribe, is also discussed in-depth."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/385",
+          "caption": "The U.S. Navy During World War II: One Mans Experience",
+          "link": "/tchp_dev/items/tchp385.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2007"
+        },
+        "text": {
+          "headline": "The U.S. Navy During World War II: One Mans Experience",
+          "text": "Dale Standley discusses his U.S. Naval career and describes life aboard the USS Hatfield, a destroyer that patrolled the North American west coast during  World War II."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/389",
+          "caption": "The Drug War and Civil Rights",
+          "link": "/tchp_dev/items/tchp389.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2007"
+        },
+        "text": {
+          "headline": "The Drug War and Civil Rights",
+          "text": "Richard Scharick recounts some of the major legislative events that took place during his time as Assistant Sergeant-at-Arms for the Washington State House of Representatives. Areas of focus include the 1989 Omnibus Drug Bill and Scharicks own political philosophy."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/399",
+          "caption": "Sisters of Providence & Sister Mary Francis Cabrini Rohr",
+          "link": "/tchp_dev/items/tchp399.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1994"
+        },
+        "text": {
+          "headline": "Sisters of Providence & Sister Mary Francis Cabrini Rohr",
+          "text": "Sister Mary Cabrini Rohr (Frances Rohr, 1910-1997) discusses her decade-spanning nursing and teaching career, including her time as director of the School of Nursing at Providence St. Peter Hospital in Olympia, Washington. Special focus is given to the schools 1954 changeover from a three-year professional program to a one-year practical program, a transition that Sister Cabrini personally oversaw."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/412",
+          "caption": "Activism is about taking action: An Oral History with Lyle Quasim",
+          "link": "/tchp_dev/items/tchp412.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2007"
+        },
+        "text": {
+          "headline": "Activism is about taking action: An Oral History with Lyle Quasim",
+          "text": "Lyle Quasim discusses civil rights issues in America and shares his history of social activism. Areas of focus include his time in the Air Force and his work with Shelter Half, an underground anti-war organization run by GIs. He also touches on his work with the Safe Streets Campaign and other local civic programs."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/416",
+          "caption": "An Honorable Man",
+          "link": "/tchp_dev/items/tchp416.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1994"
+        },
+        "text": {
+          "headline": "An Honorable Man",
+          "text": "In this set of interviews, retired Washington State Superior Court judge Bertil Johnson discusses his legal and civic careers, particularly his involvement with the Tacoma Boys Club and his time as presiding judge for the Pierce County juvenile court. He comments on some of the federal and local changes made to the juvenile court system in the 1970s and also touches briefly on some events from Tacoma history, such as the blizzard of 1950 and the adoption of the new city charter."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/423",
+          "caption": "Dawn Lucien: Civic Pride and the Ebb and Flow of Tacomas Development",
+          "link": "/tchp_dev/items/tchp423.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2009"
+        },
+        "text": {
+          "headline": "Dawn Lucien: Civic Pride and the Ebb and Flow of Tacomas Development",
+          "text": "Dawn Lucien, a lifelong civic activist and former Tacoma City Council member, examines some of the major political and economic decisions that have affected Tacomas development, particularly that of the downtown core. Areas of focus include the downtown decline following the construction of the Tacoma Mall; Luciens efforts to restore the Pantages Theater and revitalize the Broadway District; and her involvement with the South Puget Sound Education Council, which helped to establish the Tacoma branch of the University of Washington."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/429",
+          "caption": "A Woman of Firsts: Nelda Jaeger-Kraemer - Her Life as a Citizen of Tacoma for Ninety-two Years",
+          "link": "/tchp_dev/items/tchp429.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1998"
+        },
+        "text": {
+          "headline": "A Woman of Firsts: Nelda Jaeger-Kraemer - Her Life as a Citizen of Tacoma for Ninety-two Years",
+          "text": "Robert Richard Kraemer Jr, Betty Dahl Kraemer, and Renee Kraemer-Rhoads present their family history and share stories about the several generations of Kraemers, Jaegers, and Kitchens who have lived in the Tacoma area. Particular focus is given to Nelda Jaeger-Kraemer, one of the first women to graduate from the University of Washington Law School."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/452",
+          "caption": "The History of the Kitsap County Young Women's Christian Association",
+          "link": "/tchp_dev/items/tchp452.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1993"
+        },
+        "text": {
+          "headline": "The History of the Kitsap County Young Women's Christian Association",
+          "text": "Two longtime members of the Kitsap County YWCA share the history of their organization, tracing its evolution from a wartime social club to a community outreach task force. The Lillian Walker interview focuses on the organizations early years, as well as Walkers civil rights activities. The Carolyn Hershberger interview covers the establishment of the ALIVE (Alternatives to Living In a Violent Environment) program and its merger with the Kitsap YWCA in the late 1970s."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/457",
+          "caption": "The Slavic Fishermen of the Puget Sound",
+          "link": "/tchp_dev/items/tchp457.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1991"
+        },
+        "text": {
+          "headline": "The Slavic Fishermen of the Puget Sound",
+          "text": "The joint interview with married couple, Nick and Rose Tarabochia, covers their family life and early struggles to earn a living and raise a family during the Depression. Among the topics discussed by Nick Tarabochia are: his childhood in Brookville, Washington, the life of a fisherman in the Pacific Northwest (including a consideration of purse seine fishing versus gill netting), and Native American fishing rights. Subjects covered by Rose Tarabochia include: her upbringing, her self-reliance as a fisherman's wife, and her real estate acumen."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/468",
+          "caption": "Longshore Workers in Tacoma",
+          "link": "/tchp_dev/items/tchp468.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1995"
+        },
+        "text": {
+          "headline": "Longshore Workers in Tacoma",
+          "text": "This collection of interviews with local longshoreman examines several aspects of the longshoring industry in Tacoma, including mechanization, race and gender relations, and the role of the national and local unions. Interviewees include Wardell Canada, Jr., a former member of the Black Longshore Association; Isaac Morrow, a Port of Tacoma foreman who pioneered on-dock intermodal shipping; Rodney Rhymes and Douglas Woods, two career longshoreman with thirty-five years experience between them; Marlene Anderson, the first woman in Pierce County to work in the longshoring industry; and Phil Rees, a casual (non-union) longshoreman who hopes to follow in his fathers and grandfathers footsteps."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/474",
+          "caption": "Taylor Bay History: An Interview with Grant Larson",
+          "link": "/tchp_dev/items/tchp474.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2011"
+        },
+        "text": {
+          "headline": "Taylor Bay History: An Interview with Grant Larson",
+          "text": "In this pair of interviews, Grant and Corinne Larson describe life in the Taylor Bay community of Key Peninsula. Grant Larson, a Taylor Bay native whose grandparents immigrated to the area in 1857, shares stories from his childhood, comments on his early fishing and logging careers, and reflects on how the community has changed since his youth. Corinne Larson describes the rural lifestyle of Taylor Bay in the 1950s and also talks about their time as a husband-and-wife fishing team in Alaska."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/496",
+          "caption": "Ramona Bennett: Puyallup Tribal Indian Activist",
+          "link": "/tchp_dev/items/tchp496.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2009"
+        },
+        "text": {
+          "headline": "Ramona Bennett: Puyallup Tribal Indian Activist",
+          "text": "Tribal leader Ramona Bennett discusses her forty years of advocacy work on behalf of the Puyallup Tribe and the Pacific Northwest Native American community. The interviews focus in particular on Bennetts time on the Puyallup Tribal Council (1968-1979), during which she campaigned for much-needed social and healthcare services. Other areas of focus include Bennetts involvement with the fish-in movement and the history of Cushman Hospital."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/507",
+          "caption": "The Chronicles of the Life of Wilmott Ragsdale",
+          "link": "/tchp_dev/items/tchp507.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2007"
+        },
+        "text": {
+          "headline": "The Chronicles of the Life of Wilmott Ragsdale",
+          "text": "Wilmott Ragsdale presents his life story and gives an overview of his decade-spanning journalism and teaching careers. Notable highlights from this lengthy collection of interviews include: Ragsdale's childhood in Tacoma's early Proctor District; his time as a war correspondent in England during World War II; his opposition to the Canwell Committee and subsequent involvement with the academic freedom movement; and his travels to South America, Europe, the Middle East, and Africa."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/515",
+          "caption": "The Story of Lena Landry Davis: Puyallup Tribal Elder",
+          "link": "/tchp_dev/items/tchp515.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2008"
+        },
+        "text": {
+          "headline": "The Story of Lena Landry Davis: Puyallup Tribal Elder",
+          "text": "In this series of interviews, Puyallup Tribal Elder Lena Landry recounts stories from her childhood, focusing in particular on her time at the St. George's and Chemawa Indian Schools and at Cushman Indian Hospital. She also touches on her later work with the Metropolitan Development Council and the Puyallup Tribal Council."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/522",
+          "caption": "Then and Now: Women Legislators in Washington State",
+          "link": "/tchp_dev/items/tchp522.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "1998"
+        },
+        "text": {
+          "headline": "Then and Now: Women Legislators in Washington State",
+          "text": "Washington State Senators Shirley Winsley and Lorraine Wojahn discuss their decade-spanning political careers and comment on trends and shifts in American politics."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/528",
+          "caption": "Mid-Knight Run: The Story of One Family's Journey to the Northwest from the Deep South",
+          "link": "/tchp_dev/items/tchp528.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2014"
+        },
+        "text": {
+          "headline": "Mid-Knight Run: The Story of One Family's Journey to the Northwest from the Deep South",
+          "text": "Dorothy Knight recounts her family's journey from Moss Point, Mississippi, to Tacoma, Washington, and compares and contrasts life in the Northwest and the Deep South. The interview focuses in particular on the interplay between region and racism within the United States."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/535",
+          "caption": "What We Built Came Out Of That Basement: Brian Skiffington on Hardcore Punk in Tacoma",
+          "link": "/tchp_dev/items/tchp535.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2014"
+        },
+        "text": {
+          "headline": "What We Built Came Out Of That Basement: Brian Skiffington on Hardcore Punk in Tacoma",
+          "text": "Local musician Brian Skiffington presents a history of the modern hardcore punk movement in Tacoma, Washington. Heavily involved in the punk and hardcore scenes as a drummer and venue-booker, Skiffington discusses notable bands and individuals and touches on the philosophical and political aspects of the punk and hardcore subcultures. He describes his involvement in local venues, including the Lake City Community Center, the Viaduct, and the Frameshop, as well as \"punk houses\" such as the 1227 House and the Bunny Ranch. The influence of bands such as Greyskull and Left With Nothing are also discussed."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/541",
+          "caption": "An Interview with Dr. Maxine Mimms Ph.D.: Building a Learning Comunity in Tacoma's Hilltop Neighborhood",
+          "link": "/tchp_dev/items/tchp541.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2014"
+        },
+        "text": {
+          "headline": "An Interview with Dr. Maxine Mimms Ph.D.: Building a Learning Comunity in Tacoma's Hilltop Neighborhood",
+          "text": "Maxine Mimms discusses her educational experiences as well as efforts to develop educational opportunities for the African-American community in the Hilltop area of Tacoma, Washington.  Mimms is the founder of the Evergreen State College Tacoma branch as well as the Maxine Mimms Academy, an educational outreach program."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/547",
+          "caption": "Father Bill Bichsel and Disarm Now Plowshares",
+          "link": "/tchp_dev/items/tchp547.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2014"
+        },
+        "text": {
+          "headline": "Father Bill Bichsel and Disarm Now Plowshares",
+          "text": "Father Bill Bischel discusses his life as a Jesuit priest, as well as  joining  a tradition of radical Catholic non-violent activism.  A particular focus is paid to his role in the Disarm Now Plowshares action where he, and four others, broke into the Bangor Trident nuclear submarine base near Bremerton, Washington, to symbolically disarm nuclear weapons stored there."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/552",
+          "caption": "James Walton: From Texas to Tacoma",
+          "link": "/tchp_dev/items/tchp552.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2014"
+        },
+        "text": {
+          "headline": "James Walton: From Texas to Tacoma",
+          "text": "James L Walton, the first African-Ameican city manager in Washington State, recounts his experiences growing up in rural, segregated Texas, in the Vietnam War and involvement in the Mother's Day Disturbance of 1969."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/557",
+          "caption": "Robert Elofson: The Lower Elwha Klallam and the Return of Their River",
+          "link": "/tchp_dev/items/tchp557.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2014"
+        },
+        "text": {
+          "headline": "Robert Elofson: The Lower Elwha Klallam and the Return of Their River",
+          "text": "Robert Elofson discusses his early life being raised outside the Lower Elwa KlallamTribe in foster homes, his college years earning a double bachelors degree in physics and biology at Western Washington University and his involvement in the Western Washington Native American Student Union.  This led to him being the first fisheries biologist for the Lower Elwah and his involvement in the Elwha dam removal and restoration of the Elwha river ecosystem. The original sound recording of the interview is not included."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/565",
+          "caption": "The Greek Community in Tacoma, Washington",
+          "link": "/tchp_dev/items/tchp565.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2014"
+        },
+        "text": {
+          "headline": "The Greek Community in Tacoma, Washington",
+          "text": "JoAnn Tryfon discusses her mother's unbringing in Idaho, father's imigration to the United states and his hat shop in downtown Tacoma.  She also discusses her own upbringing, her community involvment and relationship with the Greek Orthodox Church in Tacoma as well as her general experience of being a Greek-American."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/572",
+          "caption": "The Burley Community: Preserving the Past",
+          "link": "/tchp_dev/items/tchp572.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2015"
+        },
+        "text": {
+          "headline": "The Burley Community: Preserving the Past",
+          "text": "The Burley Utopian Community was part of the growing Social Equity Movement of the latter part of the 19th and early part of the 20th centuries. The origin of the idea of seeding the United States with Socialist Communities came from an organization led by Eugene V Debs. Debs was a veteran of the labor troubles that gripped the nation beginning in the 1880's and culminated with the deaths of thirteen workers during the Pullman Strike. Debs began to believe that the only hope for the workingman was Socialism. With that in mind the national Socialist organization looked for opportunities to spread the Socialism, Washington State was selected as the site of the colony, chosen because of its history of labor activism and a smaller population that would be sympathetic to the cause. Thus was born the town/colony of Brotherhood, a name that was soon surrendered for the commonly used, Burley. Plagued with troubles from the onset, the colony lasted only 15 years. This is story of a community that has survived, not so much physically, but in spirit, a spirit that still holds this small community together today. That spirit can be seen in the words of Barbara Laxson who is a longtime resident who lives in one of the original homes built by the colony where an oral history was recorded. It can also be heard in the words of Maria Moore, an American citizen born in Mexico who lives now in Burley. Mrs. Moore, is a former member of the Burley Community Association the group that is charged with maintaining the community properties, her interview was conducted in the community park. In their words you can begin to understand why it is so important to try to keep and keep the history and the name Burley alive today."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/577",
+          "caption": "The Puyallup Land Claims Settlement: A Lesson in Struggle",
+          "link": "/tchp_dev/items/tchp577.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2015"
+        },
+        "text": {
+          "headline": "The Puyallup Land Claims Settlement: A Lesson in Struggle",
+          "text": "Examining the social, economical, and communal effects of the Puyallup Land Claims Settlement of 1990, this research essay explores these various elements through the assistance of an interview conducted with the current Puyallup Tribal Chairman, Bill Sterud. Sterud was also the Puyallup Tribal Chairman at the time of that the settlement took place, providing a vivid recollection of the Tribal community before and after the settlement and how the settlement changed the course of the Puyallup Tribe of Indians forever. This research essay also explores several of the major issues found within the non-Indian community surrounding the land claims settlement as well."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/583",
+          "caption": "Alicia Pike, Point Defiance Zoo and Aquarium, and Point Defiance AAZK: Wildlife Conservation in Tacoma",
+          "link": "/tchp_dev/items/tchp583.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2015"
+        },
+        "text": {
+          "headline": "Alicia Pike, Point Defiance Zoo and Aquarium, and Point Defiance AAZK: Wildlife Conservation in Tacoma",
+          "text": "This project focuses on the significance of zoos and local volunteer groups on the promotion and successful implementation of conservation efforts. More specifically, this project focuses on the efforts of Point Defiance Zoo and Aquarium as well as the Point Defiance chapter of the American Association of Zoo Keepers. This project includes an interview with fulltime keeper and Point Defiance AAZK president, Alicia Pike, who assisted in providing significant insight into the last fifteen years of conservation efforts in Tacoma. Ms. Pike has been working in the zoological field and an active member of AAZK for over a decade. She has worked at several zoological facilities in both Washington and Oregon. Furthermore, she has been directly involved in the implementation and success of several conservation efforts, including the red wolf breeding program at Point Defiance Zoo and Aquarium. In the context of the zoo, she assists in the care, breeding, and maintenance of the Sumatran tigers, lowland anoa, small-clawed otters, and clouded leopards as well as the care for other endangered species at the zoo. She has lead and continues to lead many of the keeper talks at Point Defiance Zoo and Aquarium, providing information and facilitating Q&A sessions with the community so as to inspire local participation and promotion of wildlife conservation. As both an active member and president of Point Defiance AAZK, Ms. Pike has helped organize and lead several local conservation efforts that work directly with members of the local Tacoma community. Over the course of our interview, Ms. Pike not only discussed the significance of Point Defiance Zoo and Aquarium and AAZK as facilitators of conservation, but also discussed at great length the relation between these organizations and Tacoma, describing Tacoma�s general receptiveness to the work of conservation efforts and citizen scientists."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/589",
+          "caption": "Morris McCollum: Tacoma's Hilltop Community Icon",
+          "link": "/tchp_dev/items/tchp589.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2015"
+        },
+        "text": {
+          "headline": "Morris McCollum: Tacoma's Hilltop Community Icon",
+          "text": "Mr. Morris McCollum, \"Mr. Mac\" as he affectionately known, is one of Tacoma's most respected business and community leaders. He is certainly one of the longest lasting. Shortly after arriving in Tacoma in 1957 Mr. McCollum purchased the K Street Department Store which was located on the corner of 12th and K. He operated the store for several years. At the time the K Street business sector, one of the city's twelve business districts, was second only to downtown Tacoma in terms of business activity. Businesses such as hardware stores, banks, small department stores, appliance dealers, butchers, markets, cleaners, clothing stores, and restaurants lined the streets. In 1960, he moved to 11th and Broadway and opened what to become the quintessential men's store \"Mac the Knife,\" later shortened to \"Mr. Mac's.\" At the time the Tacoma business district was being adversely affected by the building of the Tacoma Mall which would, after its completion, lure many of the surrounding businesses to it. Mr. Mac stayed, however, and became president of the K Street Booster Club, an organization dedicated to promoting the interests of small family owned businesses and the community that surrounded them. In addition to having an active interest in the business community Mr. McCollum also became dedicated to the areas youths and his interests in sports, boxing in particular, lead him to becoming involved with the Tacoma Athletic Commission, eventually becoming its president in 1978. Recognized by the city of Tacoma with the 2004 Martin Luther King Jr. award Mr. McCollum remains a leading figure."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/594",
+          "caption": "Upholding the Hippocratic Oath: A Story of Medicine in Tacoma and its Fight Against AIDS",
+          "link": "/tchp_dev/items/tchp594.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2015"
+        },
+        "text": {
+          "headline": "Upholding the Hippocratic Oath: A Story of Medicine in Tacoma and its Fight Against AIDS",
+          "text": "From the very beginning, Tacoma was met with illness in the form of typhoid. Disease would continue to wage war against the residents of the City of Destiny until the Fannie C. Paddock Memorial Hospital and St. Joseph Hospital were built in 1882 and 1891, respectively. Both organizations developed meaningful relationships with their community and ignited a behind-the-scenes competition which would benefit both patient and physician. Almost 100 years later, Tacoma was cared for predominantly by primary care physicians. It had just started to see an influx of medical specialists via Madigan Army Medical Center when the city was hit by HIV in 1983. With no effective cure at the time, Tacoma did its best to cope with the disease and its associated complications, and the infectious disease specialists were on the forefront. One of these few physicians was Dr. Peter Marsh. Born in  Chicago in 1949, he was inspired to become a doctor as a young boy by the Dr. Kildare film series. Arriving in Tacoma in 1981, he would find himself in the middle of handling the AIDS epidemic, supporting patients as best as he could before they succumbed to the disease; that is, until the introduction of antiretroviral medications. Now able to effectively cure patients, Dr. Marsh found new life in his work and continued to serve his community until retirement in 2015. With the epidemic under control, Tacoma still utilizes what it learned from that chaotic era to stand prepared for anything thrown its way."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/603",
+          "caption": "Blood, Sweat, and Tears: Nhung and Thanh Huynh's Oral History",
+          "link": "/tchp_dev/items/tchp603.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2015"
+        },
+        "text": {
+          "headline": "Blood, Sweat, and Tears: Nhung and Thanh Huynh's Oral History",
+          "text": "In 1973 the war in Vietnam had ended for the United States and by 1975 the Vietnam War had effectively ended altogether. Following the end Vietnam War, the life of the South Vietnamese people would be disrupted and the new regime in Vietnam would implement harsh new laws and regulations against the South Vietnamese population to stabilize the new government. The chaos towards the end of the Vietnam War led to the United States to accept large numbers of Vietnamese refugees into the country. Did the United States do enough to help the refugees, or did their concerns go unheard? The purpose of this oral history project is to gain thoughtful information about the perspectives of Vietnamese refugees and their trials and tribulations during their voyage to freedom and once they arrived to America. This oral history project includes personal stories of Nhung Huynh and Thanh Huynh's refugees escaping on boat and their lives while waiting to resettle in America."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/609",
+          "caption": "Jack McQuade: Renewal of Historic Swiss Pub Coincides with Growth of the University of Washington Tacoma",
+          "link": "/tchp_dev/items/tchp609.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2015"
+        },
+        "text": {
+          "headline": "Jack McQuade: Renewal of Historic Swiss Pub Coincides with Growth of the University of Washington Tacoma",
+          "text": "This project is comprised of an oral interview, recorded and transcribed, with Mr. Jack McQuade, co-owner of The Swiss pub, located at 1904 Jefferson Avenue, Tacoma, WA. The research paper investigates the factors involved when Mr. McQuade started this business during the early 1990's, as well as, examining how this  helped revitalize and preserve the south downtown Tacoma setting on the UW Tacoma campus. The Swiss is a first-rate location for inspection due to its existence for over 100 years. Mr. McQuade has been the owner for as long as UW's 46 acre downtown campus has been in existence, his insight provides invaluable perspective on the transition over last 25 years of both the campus and his business in relation to one another."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/615",
+          "caption": "South Tacoma Then and Now",
+          "link": "/tchp_dev/items/tchp615.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2015"
+        },
+        "text": {
+          "headline": "South Tacoma Then and Now",
+          "text": "The purpose of this oral history was to interview Floyd Olson in order to capture his perspective and memories as they pertain to the South Tacoma Business District and how it was transformed due to the construction of I-5 and the Tacoma Mall. Mr. Olson is a lifelong South Tacoma resident and has vivid memories of the time both before and after I-5 and the Mall. As of yet the Tacoma Community History Project has no oral history pertaining to South Tacoma; thus it is an aim of this project to resolve that omission. The methodology used was a personal interview with Mr. Olson using pre-conceived, open-ended questions based on prior research. The interview was conducted in such a manner so as to be as respectful to Mr. Olson while at the same time keeping the focus of the interview on the changes and history of South Tacoma. The results of the interview show that indeed prior to I-5 and the Mall the South Tacoma Business District was a thriving, wholesome area that catered to the everyday needs of the surrounding residents. However, the completions of I-5 and the Mall undoubtedly altered the atmosphere of the area; Mr. Olson can attest to these changes. The implications of this oral history are in laying the foundation for future studies on South Tacoma."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/621",
+          "caption": "Telegrapher for the Northern Pacific Railway in Tacoma",
+          "link": "/tchp_dev/items/tchp621.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Telegrapher for the Northern Pacific Railway in Tacoma",
+          "text": "Gary Emmons was in a unique position in the 1960s, working for the Northern Pacific Railway as a telegrapher. He was witness to the change from manpower to computers. The telegraph station at McCarver Street in Tacoma, Washington was one of the most important stations in the area. Trains would not leave Tacoma, unless they had received their instructions from this station. This paper will provide a brief history of not just the McCarver Street station, and how it operated, but also other institutions, that were intricately connected to the Northern Pacific Railway here in Tacoma; institutions such as McKinley Hill Hospital, the Great Tacoma Shops, Union Station and, very briefly, the decline and the revival of downtown Tacoma and the restoration of Union Station, as well as the present campus of the University of Washington, Tacoma. This research will cover a span from approximately 1910 to 2000 and follows loosely the interview conducted with Col. Gary Emmons, USAF, Ret."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/629",
+          "caption": "When Races Collide: Willie Stewart and the Voluntary Desegregation of Tacoma Public Schools",
+          "link": "/tchp_dev/items/tchp629.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2017"
+        },
+        "text": {
+          "headline": "When Races Collide: Willie Stewart and the Voluntary Desegregation of Tacoma Public Schools",
+          "text": "On the heels of the Brown v. Board of Education decision and the Civil Rights Act of 1964, the Tacoma School District took voluntary measures to desegregate a select number of schools with high non-white enrollment. The district superintendent, Dr. Angelo Giaudrone, drew attention to the de facto segregation, and primarily focused on two elementary schools: Stanley Elementary, with a black population of 64 percent and McCarver Elementary, with a black population of 84 percent. In 1963, a subcommittee was formed to analyze and study the de facto segregation and provide recommendations for potential solutions. On July 8, 1966, a plan was announced by the school board for an optional enrollment program that relied on closing McCarver Junior High and to provide limited open enrollment to students affected by the closing. The district hired its first black principal, Willie Stewart, in 1970 in order to bridge the divide between the school district and the black community. Stewart led the summer counseling program to work with families on the transition between the closing of their neighborhood school and their new school of their choice. According to the United States Commission on Civil Rights a decade later, the summer counseling program was pivotal to the success of the voluntary desegregation program in the Tacoma School District."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/635",
+          "caption": "Perspectives on Tacoma School Desegregation: From Wallflower to Rabble Rouser",
+          "link": "/tchp_dev/items/tchp635.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Perspectives on Tacoma School Desegregation: From Wallflower to Rabble Rouser",
+          "text": "The child of left leaning social activists, Laurie Arnold grew up during a time of great change in the country and the Tacoma community. The same year Laurie started first grade, McCarver Elementary in Tacoma became the first magnet school in the country and began the desegregation process of Tacoma Public Schools. Though Laurie only attended through fifth grade, her experiences there lasted a lifetime. Throughout her educational journey, Laurie attended many schools, and the one that remained clearest in her memory was McCarver. One of her fondest memories was Friday Activities, and she could still recall the teachers she had as well which teams she belonged to. Laurie lived in Hilltop most of her childhood and only spent about seven or eight years away before returning home to Tacoma for good. In that time, she lived and attended schools in Seattle until age fourteen. Roughly a month into her ninth grade year, Laurie dropped out of school and moved to Florida until age seventeen. Upon her return, Laurie completed her GED, Associate�s, Bachelor�s, and Master�s degrees all in the South Puget Sound region. She taught at the Tacoma Urban League for many years before she found her way to Bates Technical College where she currently works. Laurie continues to serve the Tacoma community and is a proud Hilltop native."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/646",
+          "caption": "Still Fighting after All These Years: A Puyallup Tribal Member's Perspective",
+          "link": "/tchp_dev/items/tchp646.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Still Fighting after All These Years: A Puyallup Tribal Member's Perspective",
+          "text": "Nancy Shippentower-Games is a member of the Puyallup Tribe in Washington State. Nancy's parents are Donald and Janet McCloud. She has seven siblings and grew up on the banks of the Nisqually River and Puyallup Rivers and currently resides in Yelm, Washington. Nancy grew up during the fishing wars that took place on both the Nisqually and Puyallup Rivers. Her mother Janet McCloud and her uncle, Billy Frank Jr., were very active advocates during the battle over salmon. She remembers vividly the violence, racism and injustices that she and her people suffered as they fought for what was rightfully theirs. By revisiting the circumstances and propositions set forth in the Medicine Creek Treaty of 1854, a better understanding of what the Puyallup and Nisqually tribes have been fighting for comes into focus. While the Boldt Decision of 1974 was a turning point for Northwest Tribes, concerns such as climate change, overpopulation, and proposals such as the LNG plant in Tacoma continue to put the salmon runs at risk."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/653",
+          "caption": "Philip H. Red Eagle",
+          "link": "/tchp_dev/items/tchp653.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Philip H. Red Eagle",
+          "text": "Philip H. Red Eagle was born in 1945 in Tacoma, Washington. His mother, Marian Steilacoom, of Salish decent, was born near Port Angeles, Washington. Philip's father, Philip Red Eagle, a member of the Dakota Tribe, was born near the Missouri River on the Fort Peck Indian Reservation in Montana. Phillip spent the first fourteen years of his life in Tacoma, attending Stanley and McCarver schools before moving to Sitka, Alaska with his family in 1959. Philip joined the Navy shortly after graduating from high school, serving in Vietnam for five years from 1969-1973. After Vietnam, Philip returned to Washington and began undergraduate studies at the University of Washington where he earned two bachelor's degrees. The return to civilian life after the war affected Philip and he struggled with PTSD and related issues like depression and insomnia. Philip found that art, writing, and taking part in the revival of his culture helped him confront his PTSD and over the last 30 years Philip has contributed greatly to the revival and expansion of Indigenous culture in the Pacific Northwest."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/660",
+          "caption": "Perspectives on Tacoma School Desegregation: From Family Values to Program Evaluation",
+          "link": "/tchp_dev/items/tchp660.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Perspectives on Tacoma School Desegregation: From Family Values to Program Evaluation",
+          "text": "Born in rural, eastern Montana, Bruce Arneklev, 79, can be seen as an unlikely match to have led the Tacoma School District's desegregation program evaluation in the 1970s. Arneklev earned his bachelor's and master's degrees at the University of Oregon and his Educational Doctorate in educational psychology at Utah State University before moving out with his family of five for an evaluation role with the Tacoma School District. Arneklev was hired to evaluate the district's Emergency School Aid Act for its first four years, 1973-1977. ESAA was a federal program that funded school desegregation efforts. Tacoma began voluntarily desegregating its schools in 1966 with a limited school choice enrollment for its segregated central-area schools and expanding to district-wide enrollment policies to reduce effects of de facto segregation over the next three years. Arneklev worked for an additional twelve years in the district's evaluation department before working as a school psychologist for ten years, retiring in 2000. He lives in the North End of Tacoma with his wife, Dixie, dog, Charlie and has several children and grandchildren in the Tacoma area."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/671",
+          "caption": "Engaging Tacoma Buddhism: Acculturation at the Tacoma Buddhism Temple",
+          "link": "/tchp_dev/items/tchp671.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2019"
+        },
+        "text": {
+          "headline": "Engaging Tacoma Buddhism: Acculturation at the Tacoma Buddhism Temple",
+          "text": "In April of 2019, a Pacific Lutheran University Religion 393 class set out to interview members of the Tacoma Buddhist Temple with the purpose to study the acculturation of religion and the ways that the role of religion in the Tacoma community has changed overtime. The class was broken down into three groups of 3-4 students each in order to interview Miyoko Kanda, Donna Sasaki and Crystal Inge, who are all members of the Tacoma Buddhist Temple. Each person was interviewed in order to glean more information about the time period they were most active in and specific questions regarding temple culture. This project was initiated with the intent to preserve the different perspectives of the members mentioned above through oral history as an ongoing project to collect and archive oral histories of relevant members of Tacoma from its foundation to present day."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/680",
+          "caption": "Farming in the Time of Pandemic delete",
+          "link": "/tchp_dev/items/tchp680.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2020"
+        },
+        "text": {
+          "headline": "Farming in the Time of Pandemic delete",
+          "text": "This project is based off of oral interviews, recorded and transcribed, with Thurston County farmers: Ann Petricola and Joel Baranick of Ellis Creek Farm and Kevin Jensen of Riverbend Ranch. The research essay explores the immediate trends seen in small farms during the first four months of the COVID-19 pandemic in Spring 2020. In a time of great uncertainty and fear, small farms across the US suddenly saw a spike in interest for direct to consumer sales while also facing processing bottlenecks and financial uncertainty. The experiences of Ellis Creek Farm and Riverbend Ranch paint a picture of small farms as safe, flexible, and community oriented sources of food and highlight some of the specific challenges they have faced during this time."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/689",
+          "caption": "Farming in the Time of Pandemic",
+          "link": "/tchp_dev/items/tchp689.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2020"
+        },
+        "text": {
+          "headline": "Farming in the Time of Pandemic",
+          "text": "This project is based off of oral interviews, recorded and transcribed, with Thurston County farmers: Ann Petricola and Joel Baranick of Ellis Creek Farm and Kevin Jensen of Riverbend Ranch. The research essay explores the immediate trends seen in small farms during the first four months of the COVID-19 pandemic in Spring 2020. In a time of great uncertainty and fear, small farms across the US suddenly saw a spike in interest for direct to consumer sales while also facing processing bottlenecks and financial uncertainty. The experiences of Ellis Creek Farm and Riverbend Ranch paint a picture of small farms as safe, flexible, and community oriented sources of food and highlight some of the specific challenges they have faced during this time."
+        }
+      },{
+        "media": {
+          "url": "https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/695",
+          "caption": "Pandemic in Her Baby Sling: The Iranian American Women's Story of Migration Traumas and Labor Hardship During 2020's COVID-19 Pandemic",
+          "link": "/tchp_dev/items/tchp695.html",
+          "credit": "TCHP Demo"
+        },
+        "start_date": { 
+          "year": "2020"
+        },
+        "text": {
+          "headline": "Pandemic in Her Baby Sling: The Iranian American Women's Story of Migration Traumas and Labor Hardship During 2020's COVID-19 Pandemic",
+          "text": "Since COVID-19 started to become a global pandemic, it has caused personal and public traumas. Increase in unemployment rate, bankruptcy of small businesses, financial stress to the middle and working-class and the closure of many businesses which relied on people’s social activities, including the gig industry, tourism industry and restaurants, are additional traumas to the issues of health and life threats people face by the contingency of the virus. By the end of May 2020, more than 2 million Americans were confirmed COVID-19 positive, 113 thousand of whom could not survive. Amongst the most affected populations, the people of color, especially Black Americans and immigrants have been suffering most. This research focuses on immigrant working women from the Middle East, whose life journeys are filled in with several traumas, some intensified during the pandemic. This paper provides two oral history records of two Iranian American working mothers, Aida Mohajer and Mrs. Ebrahimi, who carry historical traumas experienced in two different countries with two different cultures, i.e. Iran, and the USA. The interviewees’ stories show how the experience of trauma is related to the social class and what imposed social factors beyond choice can determine the class and different approaches to traumas."
+        }
+      }
+    ]
+}

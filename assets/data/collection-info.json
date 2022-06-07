@@ -1,0 +1,26 @@
+{ 
+    "title": "TCHP Demo",
+    "url": "erika-b.github.io/tchp_dev/",
+    "image": "https://digitalcollections.lib.washington.edu//digital/iiif/tacomacomm//full/max/0/default.jpg", 
+    "description": "CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s.",
+    "publisher": { 
+        "name": "", 
+        "url": "", 
+        "logo": "" 
+    },
+    "date_start": "1991",
+    "date_end": "2020",
+    "objects": {
+        "application/pdf": "316",
+        "audio/mp3": "149",
+        "cpd": "83",
+        "application/pdf ": "1",
+        "image/jpg": "74",
+        "mp": "152",
+        null: "0"
+        
+    },
+    "data": "erika-b.github.io/tchp_dev/assets/data/datapackage.json",
+    "last_build_date": "2022-06-07"
+}
+

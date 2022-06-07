@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Browse | TCHP Demo</title>
+<link rel="shortcut icon" type="image/x-icon" href="/tchp_dev/favicon.ico">
+<!--
+  _____     ____        __  _           ___       _ __   __       
+ / ___/__  / / /__ ____/ /_(_)__  ___  / _ )__ __(_) /__/ /__ ____
+/ /__/ _ \/ / / -_) __/ __/ / _ \/ _ \/ _  / // / / / _  / -_) __/
+\___/\___/_/_/\__/\__/\__/_/\___/_//_/____/\_,_/_/_/\_,_/\__/_/   
+   
+    built with CollectionBuilder-CONTENTdm 
+    https://github.com/CollectionBuilder/collectionbuilder-contentdm 
+-->
+<meta name="generator" content="collectionbuilder-contentdm" />
+<meta http-equiv="Content-Language" content="en-us" >
+
+<link rel="stylesheet" href="/tchp_dev/assets/lib/bootstrap.min.css" type="text/css">
+<script defer src="/tchp_dev/assets/lib/fontawesome-free/js/all.min.js"></script>
+<link rel="stylesheet" href="/tchp_dev/assets/css/custom.css" type="text/css">
+
+
+<meta name="robots" content="noindex" />
+<meta name="description" content="CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s.">
+<meta name="author" content="erika-b, " >
+<!-- Open Graph meta -->
+<meta property="og:title" content="Browse | TCHP Demo" />
+<meta property="og:description" content="CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s." />
+<meta property="og:site_name" content="TCHP Demo" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://digitalcollections.lib.washington.edu//digital/iiif/tacomacomm//full/max/0/default.jpg" />
+<meta property="og:image:alt" content="" />
+<meta property="og:url" content="erika-b.github.io/tchp_dev/browse.html" />
+<meta property="og:locale" content="en_US" />
+<!-- schema.org JSON-LD -->
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"Browse | TCHP Demo","publisher":"","description":"CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s.","image":"https://digitalcollections.lib.washington.edu//digital/iiif/tacomacomm//full/max/0/default.jpg","url":"erika-b.github.io/tchp_dev/browse.html"}</script> 
+
+
+<!-- Analytics --> 
+<!-- Last build date: 2022-06-07 -->
+  </head>
+  <body class="d-flex flex-column h-100">
+    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    <div class="container">
+    <div class="row align-items-center">
+        <div id="title" class="col-12">
+            <h1><a class="text-dark font-weight-normal" href="/tchp_dev/" >TCHP Demo</a></h1>	 
+            <p>Digital Collection Magic with Static Web Technologies</p>
+        </div>
+        
+    </div>
+</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#page-nav" aria-controls="page-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+
+        <div class="collapse navbar-collapse" id="page-nav">
+            <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link " href="/tchp_dev/">Home</a>
+                </li>
+                
+                <li class="nav-item active">
+                    <a class="nav-link " href="/tchp_dev/browse.html">Browse</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link " href="/tchp_dev/subjects.html">Subjects</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link " href="/tchp_dev/locations.html">Locations</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link " href="/tchp_dev/map.html">Map</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link " href="/tchp_dev/timeline.html">Timeline</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link " href="/tchp_dev/data.html">Data</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link " href="/tchp_dev/about.html">About</a>
+                </li><li class="nav-item ">
+                    <a class="nav-link " href="https://digitalcollections.lib.washington.edu//search/collection/tacomacomm/" target="_blank" rel="noopener">Database</a>
+                </li>
+            </ul>
+            <script>
+    function cdm_search() {
+        var query = document.getElementById("nav-search").value;
+        window.open("https://digitalcollections.lib.washington.edu//digital/search/collection/tacomacomm/searchterm/" + encodeURI(query), "_blank" );
+    }
+</script>
+<form class="form-inline my-2 my-lg-0" role="search" id="cdm-search" onsubmit="cdm_search(); return false;">
+    <input id="nav-search" class="form-control mr-sm-2 col-sm-9" type="text" placeholder="Search" aria-label="Search">
+    <button class="btn btn-primary" type="submit">
+        <svg viewBox="0 0 512 512" class="align-middle" width="1em"><path fill="#fff" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+        <span class="sr-only">Search Objects</span>
+    </button>
+</form>
+        </div>
+    </div>    
+</nav>
+
+    <main id="maincontent" role="main" class="flex-shrink-0">
+      <div class="container my-4">
+  <h2 id="browse-items">Browse Items</h2>
+
+
+<div class="row mb-3 justify-content-center">
+    <div class="col-md-8 text-center">
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control form-control-lg" id="quickSearch" placeholder="Filter ... " aria-label="Search"> 
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button" title="Filter items" alt="Search" id="goButton" >Search</button>
+                <a class="btn btn-outline-secondary filter" href="#" data-filter="">Reset</a>
+            </div>
+        </div>
+        <div class="h2" id="numberOf"></div>
+    </div>
+    <div class="col-md-2">
+        <div class="dropdown">
+            <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by <span class="font-weight-bold" id="sortfilter">Random</span>
+            </button>
+            <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
+                <button class="dropdown-item browse-sort-item active" data-filter="random">Random</button>
+                <button class="dropdown-item browse-sort-item" data-filter="title">Title</button>
+                
+                
+                <button class="dropdown-item browse-sort-item" data-filter="date">Date</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="loading" class="text-center">
+    <div class="spinner-border text-secondary" role="status"><span class="sr-only">Loading...</span></div>
+</div>
+
+<div class="row" id="browseItems"></div>
+
+</div>
+    </main>
+    <footer class="bg-dark pt-4 mt-auto container-fluid">
+
+    <div class="row border-bottom border-white pb-4 mb-2">
+
+        <div class="col-md-7  px-4 mt-2">
+
+            <h4><a href="/tchp_dev/" class="text-white font-weight-normal">TCHP Demo</a></h4>
+            <p class="text-white"><small>CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s.</small></p>
+            <nav>
+                <ul id="footer-nav" class="nav nav-pills ">
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/tchp_dev/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light active" href="/tchp_dev/browse.html">Browse</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/tchp_dev/subjects.html">Subjects</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/tchp_dev/locations.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/tchp_dev/map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/tchp_dev/timeline.html">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/tchp_dev/data.html">Data</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/tchp_dev/about.html">About</a>
+                    </li></ul>
+            </nav>
+
+        </div>
+
+        <div class="col-md-5 mt-2 text-right">
+
+           
+            <p class="text-white" id="footer-credits">
+                <small><em>built with</em>
+                    <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
+                        <img src="/tchp_dev/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder logo" >
+                    </a>
+                </small>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12 text-center pt-3 pb-1">
+        <p class="text-white">Last updated 2022</p>
+    </div>
+
+</footer>
+    <!-- Optional JS for Bootstrap: jQuery first, then Bootstrap bundle JS -->
+<script src="/tchp_dev/assets/lib/jquery-3.6.0.min.js"></script>
+<script src="/tchp_dev/assets/lib/bootstrap.bundle.min.js"></script>
+<!-- load other js -->
+<script src="/tchp_dev/assets/lib/lazysizes.min.js" async></script>
+
+<script>
+
+function makeCard(obj) {
+    // placeholder image for lazyload
+    var placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
+    // find item link
+    var itemHref = "/tchp_dev/items/" + obj.id + ".html";
+    // find images
+    if(obj.youtube) {
+        var imgSrc = 'https://img.youtube.com/vi/' + obj.youtube + '/hqdefault.jpg';
+    } else if(obj.format.includes('image')) { 
+        var imgSrc = 'https://digitalcollections.lib.washington.edu//digital/iiif/' + obj.col + '/' + obj.cdm + '/full/pct:40/0/default.jpg';
+    } else {
+        var thumbSrc = 'https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/' + obj.col + '/id/' + obj.cdm;
+    }
+    // start card
+    var card = '<div class="item col-lg-4 col-md-6 col-sm-12 mb-2"><div class="card">';
+    // top image for photos
+    if(imgSrc) {
+        card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="Image of ' + obj.title + '"></a>';
+    }
+    // title
+    card += '<div class="card-body text-center"> <h4 class="card-title"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h4>';
+    // thumb for non-photo items
+    if(thumbSrc){
+        card += '<p><a href="' + itemHref + '"><img class="lazyload" src="' + placeholder + '" data-src="' + thumbSrc + '" alt="Image of ' + obj.title + '"></a></p>';
+    }
+    // other fields
+    card += '<p class="card-text">';
+    
+    if(obj["date"]){
+    card += '<strong>Date:</strong> ';
+    
+    card += obj["date"];
+    
+    card += '<br>';
+    }
+    
+    if(obj["creator"]){
+    card += '<strong>Creator:</strong> ';
+    
+    card += obj["creator"];
+    
+    card += '<br>';
+    }
+    
+    if(obj["subject"]){
+    
+    
+    var btns = obj["subject"].split(";");
+    for (var i = 0, len = btns.length; i < len; i++) {
+        if(btns[i] != "") {
+        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="/tchp_dev/browse.html#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+        }
+    }
+    
+    
+    }
+    
+    card += '</p>';
+    // media type
+    if(obj.format != "") {
+        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="/tchp_dev/browse.html#' + encodeURIComponent(obj.format) + '">' + 
+        obj.format.split("/").pop().toUpperCase() + ' <span class="';
+        if(obj.format.includes('image')){
+        card += 'far fa-image';
+        } else if(obj.format.includes('audio')){
+        card += 'far fa-file-audio';
+        } else if(obj.format.includes('video')){
+        card += 'far fa-file-video';
+        } else {
+        card += 'far fa-file';
+        }
+        card += '"></span></a></small></p>';
+    }
+    // view button
+    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';
+    // close divs
+    card += '</div></div></div>';
+    // send back big string
+    return card;
+}
+
+/* filter items function */
+function filterItems(arr,q) {
+    // dont filter if no q 
+    if (q=="") { 
+        var filteredItems = arr; 
+    } else {
+        q = q.trim().toUpperCase(); 
+        // compatible indexOf loop filter
+        var filteredItems = [];
+        for (var i = 0, len = arr.length; i < len; i++) {
+            var val = "";
+            for (var k in arr[i]) { val += arr[i][k] + " "; }
+            if(val.toUpperCase().indexOf(q) != -1){
+                filteredItems.push(arr[i]);
+            }
+        }
+    }
+    // add number 
+    $("#numberOf").html(filteredItems.length + " of 625 items");
+
+    // add stuff, make cards first in giant var, then add all at once to speed things up
+    var cards = "";
+    for (var i = 0, len = filteredItems.length; i < len; i++) {
+        cards += makeCard(filteredItems[i]);
+    }
+    $("#browseItems").html(cards);
+
+    // finish
+    $("#goButton").focus();
+    $("#loading").hide();
+};
+
+/* Fisher-Yates shuffle https://bost.ocks.org/mike/shuffle/ */
+function shuffle(array) {
+    var m = array.length, t, i;
+    while (m) {
+        i = Math.floor(Math.random() * m--);
+        t = array[m];
+        array[m] = array[i];
+        array[i] = t;
+    }
+    return array;
+}
+
+/* add items */
+var items = [
+    
+    { "title":"Megan Aprile, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"10", "id":"tchp10" },
+    { "title":"Bill Otto, Interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"11", "id":"tchp11" },
+    { "title":"Bill Otto, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"12", "id":"tchp12" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"13", "id":"tchp13" },
+    { "title":"A Brief Study of Land Use by Indian and Pioneer Communities on the Key Peninsula", "format":"cpd", "date":"1991","subject":"Otto, Bill, 1900- --Interviews; Pioneers--Washington (State)--Key Peninsula--Interviews; Family farms--Washington (State)--Key Peninsula; German Americans--Washington (State)--Key Peninsula; Logging--Washington (State)--Key Peninsula; Youth league baseball--Washington (State)--Pierce County; Key Peninsula (Wash.)--Social life and customs--20th century; Longbranch (Wash.)--Social life and customs--20th century; Pierce County (Wash.)--Social life and customs--20th century",  "col": "tacomacomm", "cdm":"14", "id":"tchp14" },
+    { "title":"Dian Hathaway, research essay", "format":"application/pdf ",   "col": "tacomacomm", "cdm":"15", "id":"tchp15" },
+    { "title":"Bob Gallucci, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"16", "id":"tchp16" },
+    { "title":"chp1991-03_bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"17", "id":"tchp17" },
+    { "title":"Italians in Hilltop", "format":"cpd", "date":"1991","subject":"Gallucci, Bob, 1920-1996--Interviews; Italian Americans--Washington (State)--Tacoma--Interviews; Italian Americans--Washington (State)--Tacoma; Italian American families--Washington (State)--Tacoma; Hilltop (Tacoma, Wash.)--Social conditions--20th century; Hilltop (Tacoma, Wash.)--Social life and customs--20th century",  "col": "tacomacomm", "cdm":"18", "id":"tchp18" },
+    { "title":"Joseph Kosai, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"19", "id":"tchp19" },
+    { "title":"Arlene Mihara, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"20", "id":"tchp20" },
+    { "title":"Joseph Kosai, Interview trascript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"21", "id":"tchp21" },
+    { "title":"Joseph Kosai (Tape 1), audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"22", "id":"tchp22" },
+    { "title":"Joseph Kosai (Tape 2), audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"23", "id":"tchp23" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"24", "id":"tchp24" },
+    { "title":"Why Internment? The Story of Japanese-Americans During World War II", "format":"cpd", "date":"1991","subject":"Kosai, Joseph, 1933-2008--Interviews; Minidoka Relocation Center--Personal narratives; Japanese American Citizens' League; Civic leaders--Washington (State)--Tacoma--Interviews; Civil rights workers--Washington (State)--Tacoma--Interviews; Discrimination in education--Washington (State)--Tacoma; Educators--Washington (State)--Tacoma--Interviews; Japanese Americans--Washington (State)--Tacoma--Interviews; Japanese Americans--Evacuation and relocation, 1942-1945--Personal narratives; Japanese Americans--Reparations--Personal narratives; Tacoma (Wash.)--Race relations",  "col": "tacomacomm", "cdm":"25", "id":"tchp25" },
+    { "title":"Eudoro Estrada, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"26", "id":"tchp26" },
+    { "title":"Deborah Boyd, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"27", "id":"tchp27" },
+    { "title":"Eudoro Estrada, Interview trascript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"28", "id":"tchp28" },
+    { "title":"The Timber Challenge", "format":"cpd", "date":"1991","subject":"Estrada, Eudoro, 1933---Interviews; Sylvia Reforestation, Inc.; Mexican Americans--Washington (State)--Hoquiam--Interviews; Mexican Americans--Washington (State)--Tacoma--Interviews; Businessmen--Washington (State)--Hoquiam--Interviews; Businessmen--Washington (State)--Tacoma--Interviews; Foreign workers, Mexican--Washington (State); Foreign workers, Latin American--Washington (State); Discrimination in employment--Washington (State); Mexican American families--Washington (State); Mexicans--Employment--Washington (State); Reforestation--Washington (State); Washington (State)--Ethnic relations; Hoquiam (Wash.)--Ethnic relations; Tacoma (Wash.)--Ethnic relations",  "col": "tacomacomm", "cdm":"29", "id":"tchp29" },
+    { "title":"The Tacoma Rescue Mission, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"44", "id":"tchp44" },
+    { "title":"Patti R. Saunders, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"45", "id":"tchp45" },
+    { "title":"Joseph N. Ellis, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"46", "id":"tchp46" },
+    { "title":"Diana K. Jeffrey, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"47", "id":"tchp47" },
+    { "title":"Joseph N. Ellis, video", "format":"mp",   "col": "tacomacomm", "cdm":"48", "id":"tchp48" },
+    { "title":"The Tacoma Rescue Mission: Hope for the Homeless", "format":"cpd", "date":"1991","subject":"Tacoma Rescue Mission; Ellis, Joseph N.--Interviews; Jeffery, Diana K.--Interviews; Barker, G. Hanley; Marvin, Raymond L.; Shaughnessy, C. M., (Cornelius Mack), . b. 1895.; Smith, Gipsy, 1860-1947.; Rescue missions (Church work)--Officials and employees--Washington (State)--Tacoma--Interviews; City missions--Washington (State)--Tacoma; Church work with the poor--Washington (State)--Tacoma; Homeless persons--Services for--Washington (State)--Tacoma; Rescue missions (Church work)--Washington (State)--Tacoma; Shelters for the homeless--Washington (State)--Tacoma; Tacoma (Wash.)--Social conditions",  "col": "tacomacomm", "cdm":"49", "id":"tchp49" },
+    { "title":"Thomas Shoji Takemura, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"50", "id":"tchp50" },
+    { "title":"Susan Stout, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"51", "id":"tchp51" },
+    { "title":"Thomas Shoji Takemura, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"52", "id":"tchp52" },
+    { "title":"Thomas Shoji Takemura, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"53", "id":"tchp53" },
+    { "title":"Oral history interview with Thomas Shoji Takemura", "format":"cpd", "date":"1991","subject":"Takemura, Thomas Shoji--Interviews; Puyallup Assembly Center (Puyallup, Wash.)--Personal narratives; Japanese American Citizens' League; Utah-Idaho Sugar Company; Japanese Americans--Washington (State)--Fife--Interviews; Civic leaders--Washington (State)--Fife--Interviews; Japanese Americans--Evacuation and relocation, 1942-1945--Personal narratives; Japanese Americans--Reparations--Personal narratives; Japanese Americans--Washington (State); World War, 1939-1945--Washington (State); Tacoma (Wash.)--Ethnic relations--History--20th century; Tacoma (Wash.)--Race relations",  "col": "tacomacomm", "cdm":"54", "id":"tchp54" },
+    { "title":"Milton Andrews, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"59", "id":"tchp59" },
+    { "title":"Robert Ewing, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"60", "id":"tchp60" },
+    { "title":"Milton Andrews, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"61", "id":"tchp61" },
+    { "title":"Hillside Community Church: A Path to Liberalism", "format":"cpd", "date":"1992","subject":"Andrews, Milton P.--Interviews; Hillside Community Church (Tacoma, Wash.); Religious leaders--Washington (State)--Tacoma--Interviews; Church and social problems--Washington (State)--Tacoma; Methodist Church--United States--Clergy--Interviews; Political activists--Washington (State)--Tacoma--Interviews; Tacoma (Wash.)--Church history--20th century",  "col": "tacomacomm", "cdm":"62", "id":"tchp62" },
+    { "title":"Randy Brooks, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"63", "id":"tchp63" },
+    { "title":"Howard Jorgenson, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"64", "id":"tchp64" },
+    { "title":"Howard Jorgenson, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"65", "id":"tchp65" },
+    { "title":"George Masten, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"66", "id":"tchp66" },
+    { "title":"George Masten, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"67", "id":"tchp67" },
+    { "title":"Gary Moore, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"68", "id":"tchp68" },
+    { "title":"Gary Moore, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"69", "id":"tchp69" },
+    { "title":"Norm Schut, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"70", "id":"tchp70" },
+    { "title":"Norm Schut, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"71", "id":"tchp71" },
+    { "title":"Esther Stohl, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"72", "id":"tchp72" },
+    { "title":"Esther Stohl, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"73", "id":"tchp73" },
+    { "title":"The History of Council 28: The Washington Federation of State Employees", "format":"cpd", "date":"1992","subject":"Jorgenson, Howard--Interviews; Masten, George D.--Interviews; Moore, Gary (Gary L.)--Interviews; Schut, Norman--Interviews; Stohl, Esther--Interviews; Washington Federation of State Employees; Labor unions--Washington (State)--Officials and employees--Interviews; Labor movement--Washington (State)--History; Labor unions--United States--Officials and employees--Interviews; Washington (State)--Economic conditions",  "col": "tacomacomm", "cdm":"74", "id":"tchp74" },
+    { "title":"The Tacoma Smelter, photograph 1", "format":"image/jpg",   "col": "tacomacomm", "cdm":"75", "id":"tchp75" },
+    { "title":"The Tacoma Smelter, photograph 2", "format":"image/jpg",   "col": "tacomacomm", "cdm":"76", "id":"tchp76" },
+    { "title":"Angela Cookson, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"77", "id":"tchp77" },
+    { "title":"Curtis Dungey, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"78", "id":"tchp78" },
+    { "title":"Chuck O&#39;Donahue, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"79", "id":"tchp79" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"80", "id":"tchp80" },
+    { "title":"History of the Tacoma Smelter and Its Workers", "format":"cpd", "date":"1992","subject":"Dungey, Curtis--Interviews; O'Donahue, Chuck--Interviews; American Smelting and Refining Company--History; Asarco Inc.--Employees--Interviews; International Union of Mine, Mill, and Smelter Workers. Local 25 (Tacoma, Wash.); Geochemists--Washington (State)--Tacoma--Interviews; Labor unions--Officials and employees--Interviews; Metal-workers--Washington (State)--Tacoma--Interviews; Mineral industries--Employees--Interviews; Smelting furnaces--Environmental aspects--Washington (State)--Tacoma; Tacoma (Wash.)--Economic conditions",  "col": "tacomacomm", "cdm":"81", "id":"tchp81" },
+    { "title":"Rev. Kosho Yukawa, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"82", "id":"tchp82" },
+    { "title":"Yaeko Nakano, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"83", "id":"tchp83" },
+    { "title":"Susan Stout, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"84", "id":"tchp84" },
+    { "title":"Rev. Kosho Yukawa, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"85", "id":"tchp85" },
+    { "title":"Rev. Kosho Yukawa, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"86", "id":"tchp86" },
+    { "title":"Yaeko Nakano, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"87", "id":"tchp87" },
+    { "title":"Yaeko Nakano, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"88", "id":"tchp88" },
+    { "title":"Yaeko Nakano, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"89", "id":"tchp89" },
+    { "title":"Tacoma  - 1717 South Fawcett, Tacoma, WA: A Brief Historical Perspective", "format":"cpd", "date":"1992","subject":"Yukawa, Kosho--Interviews; Nakano, Yaeko--Interviews; Pratt, Sunya; Buddhist Churches of America; Tacoma Buddhist Church; Tacoma Buddhist Temple; Japanese Americans--Washington (State)--Tacoma--Interviews; Buddhism--Washington (State)--Tacoma; Japanese American women--Washington (State)--Tacoma--Interviews; Japanese Americans--Evacuation and relocation, 1942-1945--Personal narratives; Religious leaders--Washington (State)--Tacoma--Interviews; Women organists--Washington (State)--Tacoma--Interviews; World War, 1939-1945--Washington (State); Tacoma (Wash.)--Ethnic relations--History--20th century; Tacoma (Wash.)--Race relations",  "col": "tacomacomm", "cdm":"90", "id":"tchp90" },
+    { "title":"Leonard Holden, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"91", "id":"tchp91" },
+    { "title":"Julius Jahn, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"92", "id":"tchp92" },
+    { "title":"Juanita Hembrow, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"93", "id":"tchp93" },
+    { "title":"Leonard Holden, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"94", "id":"tchp94" },
+    { "title":"Leonard Holden, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"95", "id":"tchp95" },
+    { "title":"Leonard Holden, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"96", "id":"tchp96" },
+    { "title":"Leonard Holden, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"97", "id":"tchp97" },
+    { "title":"Julius Jahn, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"98", "id":"tchp98" },
+    { "title":"Julius Jahn, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"99", "id":"tchp99" },
+    { "title":"Julius Jahn, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"100", "id":"tchp100" },
+    { "title":"Julius Jahn, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"101", "id":"tchp101" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"102", "id":"tchp102" },
+    { "title":"Tacoma Friends Meeting", "format":"cpd", "date":"1992","subject":"Tacoma Friends Meeting (Tacoma, Wash.); Holden, Leonard W., 1922-1999--Interviews; Jahn, Julius, 1914-2013--Interviews; Tacoma (Wash.)--Religious life and customs; Quakers--Washington (State)--Tacoma Interviews; Quakers-- Political activity-- Washington (State)--Tacoma; Society of Friends--Washington (State)--Tacoma--History",  "col": "tacomacomm", "cdm":"103", "id":"tchp103" },
+    { "title":"Carrie Bratlie, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"104", "id":"tchp104" },
+    { "title":"James and Randolph Kris, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"105", "id":"tchp105" },
+    { "title":"James and Randolph Krise, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"106", "id":"tchp106" },
+    { "title":"Josephine Peters, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"107", "id":"tchp107" },
+    { "title":"Josephine Peters, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"108", "id":"tchp108" },
+    { "title":"Calvin Peters, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"109", "id":"tchp109" },
+    { "title":"Calvin Peters, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"110", "id":"tchp110" },
+    { "title":"Mark Peters, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"111", "id":"tchp111" },
+    { "title":"Mark Peters, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"112", "id":"tchp112" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"113", "id":"tchp113" },
+    { "title":"Squaxin Island Lives", "format":"cpd", "date":"1993","subject":"Peters, Mark A., 1955- --Interviews; Peters, Calvin, 1927-2011--Interviews; Peters, Josephine, 1904-2000--Interviews; Krise, James, 1916-2003--Interviews; Krise, Randolph H; Puget Sound Salish Indians--Interviews; Puget Sound Salish Indians--Social life and customs; Indians of North America--Washington (State)--Squaxin Island; Squaxin Island (Wash.); Squaxin Island Tribe of the Squaxin Island Reservation, Washington; Puget Sound Salish Indians--Education; Puget Sound Salish Indians--Government relations; Puget Sound Salish Indians--Social conditions; Puget Sound Salish Indians--Ethnic identity; Discrimination in education--Washington (State); Traditional fishing--Northwest, Pacific",  "col": "tacomacomm", "cdm":"114", "id":"tchp114" },
+    { "title":"Brenda Sonnier, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"115", "id":"tchp115" },
+    { "title":"Tadaye, Yoshiko, and Kimi, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"116", "id":"tchp116" },
+    { "title":"Sadako, Tadaye, and Yoshiko, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"117", "id":"tchp117" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"118", "id":"tchp118" },
+    { "title":"Tacomas Nihon Go Gakko, Japanese Language School", "format":"cpd", "date":"1993","subject":"Kawasaki, Tadaye Fujimoto--Interviews; Sugiyama, Yoshiko Fujimoto--Interviews; Tanbara, Kimi Fujimoto--Interviews; Hirose, Sadako--Interviews; Nihongo Gakko (Tacoma, Wash.); Language schools--Washington (State)--Tacoma; School buildings--Washington (State)--Tacoma; Japanese Americans--Washington (State)--Tacoma--Interviews; Japanese Americans--Evacuation and relocation, 1942-1945--Personal narratives; Tacoma (Wash.)--Ethnic relations--History--20th century; Tacoma (Wash.)--Race relations",  "col": "tacomacomm", "cdm":"119", "id":"tchp119" },
+    { "title":"Helen Gilmore, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"120", "id":"tchp120" },
+    { "title":"Helen Gilmore, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"121", "id":"tchp121" },
+    { "title":"Helen Stafford, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"122", "id":"tchp122" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"123", "id":"tchp123" },
+    { "title":"Actions Speak Louder Than Words: Helen Cecile Beck Stafford", "format":"cpd", "date":"1993","subject":"Stafford, Helen, 1899-2002--Interviews; Community activists--Washington (State)--Tacoma--Interviews; African American women civic leaders--Washington (State)--Tacoma--Interviews; African Americans--Washington (State)--History; African Americans--Washington (State)--Tacoma--History; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"124", "id":"tchp124" },
+    { "title":"Harold Moss, photograph 1", "format":"image/jpg",   "col": "tacomacomm", "cdm":"125", "id":"tchp125" },
+    { "title":"Harold Moss, photograph 2", "format":"image/jpg",   "col": "tacomacomm", "cdm":"126", "id":"tchp126" },
+    { "title":"Harold Moss, photograph 3", "format":"image/jpg",   "col": "tacomacomm", "cdm":"127", "id":"tchp127" },
+    { "title":"Alison Sonntag, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"128", "id":"tchp128" },
+    { "title":"Harold Moss, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"129", "id":"tchp129" },
+    { "title":"Harold Moss, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"130", "id":"tchp130" },
+    { "title":"Harold Moss, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"131", "id":"tchp131" },
+    { "title":"Harold Moss, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"132", "id":"tchp132" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"133", "id":"tchp133" },
+    { "title":"Civil Rights and Civic Pride: The Story of Harold G. Moss and the City of Tacoma", "format":"cpd", "date":"1993","subject":"Moss, Harold G., 1929-; Mayors--Washington (State)--Tacoma--Interviews; African Americans--Washington (State)--Tacoma--Interviews; African American politicians--Washington (State)--Tacoma--Interviews; African American civil rights workers--Washington (State)--Tacoma--Interviews; Political activists--Washington (State)--Tacoma--Interviews; Civil rights movements--Washington (State)--Tacoma; Social justice--Washington (State)--Tacoma; Race discrimination--Washington (State)--Tacoma; Tacoma (Wash.)--Race relations; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"134", "id":"tchp134" },
+    { "title":"Janice M. Foster, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"135", "id":"tchp135" },
+    { "title":"Dennis Flannigan, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"136", "id":"tchp136" },
+    { "title":"Dennis Flannigan, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"137", "id":"tchp137" },
+    { "title":"Gregory Kleiner, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"138", "id":"tchp138" },
+    { "title":"Gregory Kleiner, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"139", "id":"tchp139" },
+    { "title":"Jim Walton, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"140", "id":"tchp140" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"141", "id":"tchp141" },
+    { "title":"The Safe Streets Campaign: Tacoma and Pierce County Respond to Youth Violence", "format":"cpd", "date":"1994","subject":"Flannigan, Dennis--Interviews; Kleiner, Greg, 1949--Interviews; Walton, James L., 1939--Interviews; City managers--Washington (State)--Tacoma--Interviews; County council members--Washington (State)--Pierce County--Interviews; Nonprofit organizations--Washington (State)--Pierce County--Employees--Interviews; Safe Streets Campaign (Tacoma, Wash.); Nonprofit organizations--Washington (State)--Pierce County; Crime prevention--Washington (State)--Tacoma--Citizen participation; Drug abuse and crime--Washington (State)--Tacoma; Gangs--Washington (State)--Tacoma",  "col": "tacomacomm", "cdm":"142", "id":"tchp142" },
+    { "title":"Bernice Canada, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"149", "id":"tchp149" },
+    { "title":"Louise R. Turner, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"150", "id":"tchp150" },
+    { "title":"Preston T. Jones, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"151", "id":"tchp151" },
+    { "title":"Bernice Canada and Louise R. Turner, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"152", "id":"tchp152" },
+    { "title":"Bernice Canada and Louise R. Turner, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"153", "id":"tchp153" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"154", "id":"tchp154" },
+    { "title":"African American Life in Tacoma", "format":"cpd", "date":"1994","subject":"Turner, Louise R., 1907-1998--Interviews; Canada, Bernice C., 1913-1998--Interviews; African American women--Washington (State)--Tacoma--Interviews; African Americans--Washington (State)--Tacoma--History; African Americans--Washington (State)--Tacoma--Social conditions; Lay ministry--Washington (State)--Tacoma; Tacoma (Wash.)--Race relations; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"155", "id":"tchp155" },
+    { "title":"Rosa Franklin, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"156", "id":"tchp156" },
+    { "title":"Elizabeth Walter, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"157", "id":"tchp157" },
+    { "title":"Rosa Franklin, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"158", "id":"tchp158" },
+    { "title":"Rosa Franklin, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"159", "id":"tchp159" },
+    { "title":"Senator Rosa D. Franklin: Small-Town Person, Big-City Activist", "format":"cpd", "date":"1995","subject":"Franklin, Rosa, 1927--Interviews; Legislators--Washington (State)--Interviews; Nurses--Washington (State)--Interviews; African American women--Washington (State)--Tacoma--Interviews;  African Americans--Washington (State)--Tacoma--History; African Americans--Washington (State)--Tacoma--Social conditions; Health services accessibility; Tacoma (Wash.)--Race relations; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"160", "id":"tchp160" },
+    { "title":"Amy Loelle Adams, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"161", "id":"tchp161" },
+    { "title":"Murray Morgan, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"162", "id":"tchp162" },
+    { "title":"Murray Morgan, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"163", "id":"tchp163" },
+    { "title":"Murray Morgan, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"164", "id":"tchp164" },
+    { "title":"Rosa Morgan, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"165", "id":"tchp165" },
+    { "title":"Rosa Morgan, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"166", "id":"tchp166" },
+    { "title":"Rosa Morgan, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"167", "id":"tchp167" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"168", "id":"tchp168" },
+    { "title":"The History of Murray and Rosa Morgan", "format":"cpd", "date":"1998","subject":"Morgan, Murray, 1916-2000--Interviews; Morgan, Rosa, 1918---Interviews; Historians--Washington (State)--Tacoma--Interviews; Authors, American--Interviews; Photographers--Washington (State)--Tacoma--Interviews; Reference librarians--Washington (State)--Tacoma--Interviews; Northwest, Pacific--History--Sources; Tacoma (Wash.)--History--Sources",  "col": "tacomacomm", "cdm":"169", "id":"tchp169" },
+    { "title":"Michelle F. Treat, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"175", "id":"tchp175" },
+    { "title":"Charles Walker, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"176", "id":"tchp176" },
+    { "title":"Charles Walker, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"177", "id":"tchp177" },
+    { "title":"The Changing Peoples of Hilltop", "format":"cpd", "date":"1991","subject":"Walker, Charles, 1928-1996--Interviews; African American businesspeople--Washington (State)--Tacoma Interviews; African American civic leaders--Washington (State)--Tacoma Interviews; African Americans--Washington (State)--Tacoma Interviews; Small business--Washington (State)--Tacoma; Neighborhoods--Washington (State)--Tacoma; Tacoma (Wash.)--20th century--History;  Hilltop (Tacoma, Wash.)",  "col": "tacomacomm", "cdm":"178", "id":"tchp178" },
+    { "title":"Luke Joinette, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"179", "id":"tchp179" },
+    { "title":"Cyndi Pierce, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"180", "id":"tchp180" },
+    { "title":"Luke Joinette, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"181", "id":"tchp181" },
+    { "title":"An Interview with Luke Joinette", "format":"cpd", "date":"1991","subject":"Joinette, Luke, 1908-1995--Interviews; Hotel & Restaurant Employees and Bartenders International Union. Local 61 (Tacoma, Wash.); Hotel & Restaurant Employees and Bartenders International Union.  Local 8 (Tacoma, Wash.); Labor union members--Washington (State)--Tacoma--Interviews; Labor union members--Washington (State)--Tacoma; Labor movement--Washington (State)--Tacoma; Labor unions--Washington (State)--Tacoma; Strikes and lockouts--Washington (State)--Tacoma",  "col": "tacomacomm", "cdm":"182", "id":"tchp182" },
+    { "title":"Nardah L. Fox, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"183", "id":"tchp183" },
+    { "title":"Lucille Hurst, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"184", "id":"tchp184" },
+    { "title":"Rabbi Richard Rosenthal, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"185", "id":"tchp185" },
+    { "title":"Steph Farber, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"186", "id":"tchp186" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"187", "id":"tchp187" },
+    { "title":"Tacoma Judaism: One Hundred Years", "format":"cpd", "date":"1992","subject":"Farber, Steph--Interviews; Hurst, Lucille--Interviews; Rosenthal, Richard, 1924-1999--Interviews; LeRoy Jewelers (Tacoma, Wash.); Temple Beth El (Tacoma, Wash.); Central business districts--Washington (State)--Tacoma; Jewelers--Washington (State)--Tacoma--Interviews; Jews--Washington (State)--Tacoma--Interviews; Jews--Washington (State)--Tacoma--History; Rabbis--Washington (State)--Tacoma--Interviews; Single mothers--Washington (State)--Tacoma--Interviews; Stores, Retail--Washington (State)--Tacoma--History; Women sculptors--Washington (State)--Tacoma--Interviews; Tacoma (Wash.)--Commerce--History",  "col": "tacomacomm", "cdm":"188", "id":"tchp188" },
+    { "title":"St. Leo Church, photograph 1", "format":"image/jpg",   "col": "tacomacomm", "cdm":"189", "id":"tchp189" },
+    { "title":"St. Leo Church, photograph 2", "format":"image/jpg",   "col": "tacomacomm", "cdm":"190", "id":"tchp190" },
+    { "title":"Catholic Community Services, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"191", "id":"tchp191" },
+    { "title":"Cynthia Thomas, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"192", "id":"tchp192" },
+    { "title":"Rev. David Algers, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"193", "id":"tchp193" },
+    { "title":"Rev. David Algers, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"194", "id":"tchp194" },
+    { "title":"Doris Barkley, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"195", "id":"tchp195" },
+    { "title":"Doris Barkley, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"196", "id":"tchp196" },
+    { "title":"Fr. Bill Bichsel, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"197", "id":"tchp197" },
+    { "title":"Fr. Bill Bichsel, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"198", "id":"tchp198" },
+    { "title":"Fr. Bill Bichsel, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"199", "id":"tchp199" },
+    { "title":"Fr. Bill Bichsel, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"200", "id":"tchp200" },
+    { "title":"Fr. Bill Bichsel, audio 4", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"201", "id":"tchp201" },
+    { "title":"Patricia Ditter, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"202", "id":"tchp202" },
+    { "title":"Patricia Ditter, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"203", "id":"tchp203" },
+    { "title":"Barbara Thomashofski, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"204", "id":"tchp204" },
+    { "title":"Barbara Thomashofski, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"205", "id":"tchp205" },
+    { "title":"Project Bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"206", "id":"tchp206" },
+    { "title":"St. Leo the Great Parish - Tacoma, Washington", "format":"cpd", "date":"1992","subject":"St. Leo Church (Tacoma, Wash.); Ditter, Patricia--Interviews; Algers, David--Interviews; Bichsel, Bill, 1928-2015--Interviews; Barkley, Doris, 1921--Interviews; Thomashofski, Barbara, 1921--Interviews; Religious institutions--Washington (State)--Tacoma; Church and social problems--Catholic Church; Civic leaders-- Washington (State)--Tacoma--Interviews; Civil rights workers--Washington (State)--Tacoma--Interviews; Civil rights-- Washington (State)--Tacoma; Clergy-- Washington (State)--Tacoma; Neighborhoods-- Washington (State)--Tacoma; Hilltop (Tacoma, Wash.)",  "col": "tacomacomm", "cdm":"207", "id":"tchp207" },
+    { "title":"Will J. Conner, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"208", "id":"tchp208" },
+    { "title":"Temple Theatre, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"209", "id":"tchp209" },
+    { "title":"Barbara A. Smith, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"210", "id":"tchp210" },
+    { "title":"Will J. Conner, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"211", "id":"tchp211" },
+    { "title":"Will J. Conner, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"212", "id":"tchp212" },
+    { "title":"Will J. Conner, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"213", "id":"tchp213" },
+    { "title":"Will J. Conner, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"214", "id":"tchp214" },
+    { "title":"Will J. Conner, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"215", "id":"tchp215" },
+    { "title":"Project Bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"216", "id":"tchp216" },
+    { "title":"From Tules to Tiaras: A History of the Masonic Temple Building and Temple Theatre", "format":"cpd", "date":"1992","subject":"Conner, Will J., 1904-1996; Businesspeople--Washington (State)--Tacoma--Interviews; Theatrical managers--Washington (State)--Tacoma--Interviews; Motion picture theater managers--Washington (State)--Tacoma--Interviews; Theaters--Washington (State)--Tacoma; Musical theater--Washington (State)--Tacoma; World War, 1939-1945--Social aspects; Tacoma (Wash.)--Buildings, structures, etc.",  "col": "tacomacomm", "cdm":"217", "id":"tchp217" },
+    { "title":"Labor Day Parade 1919, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"218", "id":"tchp218" },
+    { "title":"Kendra Fitzpatrick, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"219", "id":"tchp219" },
+    { "title":"Ottilie Markholt, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"220", "id":"tchp220" },
+    { "title":"Ottilie Markholt, interview transcript 2 with photos", "format":"application/pdf",   "col": "tacomacomm", "cdm":"221", "id":"tchp221" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"222", "id":"tchp222" },
+    { "title":"A Blue Collar Town: The Tacoma Labor Movement", "format":"cpd", "date":"1993","subject":"Markholt, Ottilie--Interviews; Historians--Washington (State)--Tacoma--Interviews; Women labor union members--Washington (State)--Tacoma--Interviews; Labor--Washington (State)--History; Women labor union members--History; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"223", "id":"tchp223" },
+    { "title":"Ruth B. Nordstrom, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"224", "id":"tchp224" },
+    { "title":"Anne L. Gregory, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"225", "id":"tchp225" },
+    { "title":"Lyn S. Wilhelm, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"226", "id":"tchp226" },
+    { "title":"Ren Z. Wilson, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"227", "id":"tchp227" },
+    { "title":"Crystal Graham, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"228", "id":"tchp228" },
+    { "title":"Ruth B. Nordstrom, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"229", "id":"tchp229" },
+    { "title":"Anne L. Gregory, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"230", "id":"tchp230" },
+    { "title":"Lyn S. Wilhelm, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"231", "id":"tchp231" },
+    { "title":"Ren Z. Wilson, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"232", "id":"tchp232" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"233", "id":"tchp233" },
+    { "title":"American Lake Veterans Affairs Medical Center", "format":"cpd", "date":"1993","subject":"Nordstrom, Ruth B., 1921-2004--Interviews;  Gregory, Anne L., 1948- --Interviews;  Wilhelm, Lyn, 1947- --Interviews;  Wilson, René Z., 1957- --Interviews; Women veterans--Washington (State)--Tacoma--Interviews; Nurses--Washington (State)--Tacoma--Interviews; Gay veterans--Washington (State)--Tacoma--Interviews; Homeless veterans--Washington (State)--Tacoma--Interviews; Veterans' hospitals--Washington (State)--Tacoma; United States. Army--Military life;  United States. Navy--Military life; Veteran reintegration--United States; American Lake Veterans Affairs Medical Center",  "col": "tacomacomm", "cdm":"234", "id":"tchp234" },
+    { "title":"Joseph Marty, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"235", "id":"tchp235" },
+    { "title":"Joseph &amp; Katy Schibig, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"236", "id":"tchp236" },
+    { "title":"Pamela M. Hailey, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"237", "id":"tchp237" },
+    { "title":"Joseph Marty, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"238", "id":"tchp238" },
+    { "title":"Joseph Marty, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"239", "id":"tchp239" },
+    { "title":"Joseph &amp; Katy Schibig, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"240", "id":"tchp240" },
+    { "title":"Joseph &amp; Katy Schibig, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"241", "id":"tchp241" },
+    { "title":"Joseph &amp; Katy Schibig, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"242", "id":"tchp242" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"243", "id":"tchp243" },
+    { "title":"Swiss immigration", "format":"cpd", "date":"1994","subject":"Marty, Joseph, 1912-2001--Interviews; Schibig, Joseph 1898-2001--Interviews; Schibig, Katy, 1916-1995--Interviews; Inderbitzen, Dick--Interviews; Swiss Americans--Washington (State)--Tacoma--Interviews; Immigrants--Washington (State)--Tacoma--Interviews; usinesspeople--Washington (State)--Tacoma--Interviews; Dairy farmers--Washington (State)--Tacoma--Interviews; Sanitation workers--Washington (State)--Tacoma--Interviews; Fraternal organizations--Washington (State)--Tacoma; Fraternal organizations--Washington (State)--Tacoma--Buildings; United States--Emigration and immigration; Americanization; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"244", "id":"tchp244" },
+    { "title":"Lewis-McChord Free Press cover, image", "format":"image/jpg",   "col": "tacomacomm", "cdm":"245", "id":"tchp245" },
+    { "title":"Beula Robb, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"246", "id":"tchp246" },
+    { "title":"Michael Royce, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"247", "id":"tchp247" },
+    { "title":"Michael Royce, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"248", "id":"tchp248" },
+    { "title":"Winning the Hearts and Minds of Fort Lewis and McChord GIs During the Vietnam Era", "format":"cpd", "date":"1994","subject":"Royce, Michael, 1946--Interviews; Veterans--Washington (State)--Tacoma--Interviews; Pacifists--Washington (State)--Tacoma--Interviews; Soldiers--Political activity--Washington (State)--Joint Base Lewis-McChord; Peace movements--Washington (State)--Joint Base Lewis-McChord; Vietnam War, 1961-1975--Protest movements--Washington (State)--Joint Base Lewis-McChord; United States--Armed Forces--Political activity; Lewis-McChord free press; Underground newspapers--Washington (State)--Joint Base Lewis-McChord",  "col": "tacomacomm", "cdm":"249", "id":"tchp249" },
+    { "title":"Barbara Shaw, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"250", "id":"tchp250" },
+    { "title":"Dr. Thomas W. Anderson, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"251", "id":"tchp251" },
+    { "title":"Dr. Thomas W. Anderson, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"252", "id":"tchp252" },
+    { "title":"Dr. Thomas W. Anderson, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"253", "id":"tchp253" },
+    { "title":"Dr. Thomas W. Anderson, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"254", "id":"tchp254" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"255", "id":"tchp255" },
+    { "title":"A concrete look at our community", "format":"cpd", "date":"1994","subject":"Anderson, Thomas W., 1912-2000--Interviews; Anderson, Arthur R., 1910-1995; Civil engineers--Washington (State)--Tacoma--Interviews; Businesspeople--Washington (State)--Tacoma--Interviews; Civic leaders--Washington (State)--Tacoma--Interviews; Concrete Technology Corporation; Concrete construction industry--Washington (State)--Tacoma; Prestressed concrete construction--Washington (State)--Tacoma; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"256", "id":"tchp256" },
+    { "title":"Lena Landry, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"257", "id":"tchp257" },
+    { "title":"Judy Wright, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"258", "id":"tchp258" },
+    { "title":"Charles H. Thomas, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"259", "id":"tchp259" },
+    { "title":"Darlyne Reiter, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"260", "id":"tchp260" },
+    { "title":"Lena Landry, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"261", "id":"tchp261" },
+    { "title":"Lena Landry, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"262", "id":"tchp262" },
+    { "title":"Judy Wright, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"263", "id":"tchp263" },
+    { "title":"Judy Wright, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"264", "id":"tchp264" },
+    { "title":"Charles H. Thomas, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"265", "id":"tchp265" },
+    { "title":"Charles H. Thomas, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"266", "id":"tchp266" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"267", "id":"tchp267" },
+    { "title":"Peter C. Stanup: A Leader Among the Generous People", "format":"cpd", "date":"1998","subject":"Stanup, Peter C., 1858?-1893; Landry, Lena, 1919-2010--Interviews; Wright, Judy, 1939-2013--Interviews; Thomas, Charles, 1936- --Interviews; Puyallup Indians--History--Sources; Indians of North America--Washington (State)--History--Sources",  "col": "tacomacomm", "cdm":"268", "id":"tchp268" },
+    { "title":"Alison H. Sonntag, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"269", "id":"tchp269" },
+    { "title":"Jean Sonntag, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"270", "id":"tchp270" },
+    { "title":"Jean Sonntag, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"271", "id":"tchp271" },
+    { "title":"Jack Sonntag, Jr., interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"272", "id":"tchp272" },
+    { "title":"Jack Sonntag, Jr., audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"273", "id":"tchp273" },
+    { "title":"Jack Sonntag, Jr., audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"274", "id":"tchp274" },
+    { "title":"Richard Sonntag, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"275", "id":"tchp275" },
+    { "title":"Richard Sonntag, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"276", "id":"tchp276" },
+    { "title":"Richard Sonntag, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"277", "id":"tchp277" },
+    { "title":"Richard Sonntag, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"278", "id":"tchp278" },
+    { "title":"Brian Sonntag, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"279", "id":"tchp279" },
+    { "title":"Brian Sonntag, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"280", "id":"tchp280" },
+    { "title":"Brian Sonntag, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"281", "id":"tchp281" },
+    { "title":"Brian Sonntag, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"282", "id":"tchp282" },
+    { "title":"George Sheridan, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"283", "id":"tchp283" },
+    { "title":"George Sheridan, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"284", "id":"tchp284" },
+    { "title":"George Sheridan, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"285", "id":"tchp285" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"286", "id":"tchp286" },
+    { "title":"A Tradition of Excellence: The Sonntags and Public Service", "format":"cpd", "date":"1994","subject":"Sonntag, Jack W. 1907-1969; Sonntag, Jean, 1913-2000--Interviews; Sonntag, Richard E., 1942-2009--Interviews; Sonntag, Brian--Interviews; Sonntag, Jack W., Jr.--Interviews; Sonntag family--Interviews; Civic leaders-- Washington (State)--Interviews; City council members--Washington (State)--Tacoma--Interviews; Auditors--Washington (State)--Interviews; High school principals-- Washington (State)-- Tacoma--Interviews; Public officers; Local officials and employees--Washington (State)--Tacoma (Wash.)--Politics and government; Washington (State)--Politics and government",  "col": "tacomacomm", "cdm":"287", "id":"tchp287" },
+    { "title":"Patricia George, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"288", "id":"tchp288" },
+    { "title":"Roger Coleman, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"289", "id":"tchp289" },
+    { "title":"Roger Coleman, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"290", "id":"tchp290" },
+    { "title":"Roger Coleman, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"291", "id":"tchp291" },
+    { "title":"Roger Coleman, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"292", "id":"tchp292" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"293", "id":"tchp293" },
+    { "title":"Discrimination is the Bosses Tool: Tacoma Longshore Unions and African Americans", "format":"cpd", "date":"2007",  "col": "tacomacomm", "cdm":"294", "id":"tchp294" },
+    { "title":"Audie Mangold, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"295", "id":"tchp295" },
+    { "title":"Marion Van Winkle, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"296", "id":"tchp296" },
+    { "title":"Marylou Hanford, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"297", "id":"tchp297" },
+    { "title":"Gerry Garrison, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"298", "id":"tchp298" },
+    { "title":"Project Bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"299", "id":"tchp299" },
+    { "title":"The Community of Day Island", "format":"cpd", "date":"1993","subject":"Garrison, Gerry, 1927- --Interviews; Van Winkle, Marion, 1910-1996--Interviews; Hanford, Marylou, 1931- --Interviews; Women--Washington (State)--Day Island--Interviews; Communities--Washington (State)--Day Island; Day Island (Wash.)--History",  "col": "tacomacomm", "cdm":"300", "id":"tchp300" },
+    { "title":"Lorraine Joseph, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"301", "id":"tchp301" },
+    { "title":"Cecelia La Pointe-Gorman, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"302", "id":"tchp302" },
+    { "title":"Lorraine Joseph, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"303", "id":"tchp303" },
+    { "title":"Lorraine Joseph, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"304", "id":"tchp304" },
+    { "title":"Lorraine Joseph, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"305", "id":"tchp305" },
+    { "title":"Lorraine Joseph, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"306", "id":"tchp306" },
+    { "title":"Lorraine Joseph, interview transcript 3", "format":"application/pdf",   "col": "tacomacomm", "cdm":"307", "id":"tchp307" },
+    { "title":"Lorraine Joseph, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"308", "id":"tchp308" },
+    { "title":"Lorraine Joseph, interview transcript 4", "format":"application/pdf",   "col": "tacomacomm", "cdm":"309", "id":"tchp309" },
+    { "title":"Lorraine Joseph, audio 4", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"310", "id":"tchp310" },
+    { "title":"Lorraine Joseph, interview transcript 5", "format":"application/pdf",   "col": "tacomacomm", "cdm":"311", "id":"tchp311" },
+    { "title":"Lorraine Joseph, video", "format":"mp",   "col": "tacomacomm", "cdm":"312", "id":"tchp312" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"313", "id":"tchp313" },
+    { "title":"Lorraine Elizabeth Joseph: Puyallup Tribal Elder", "format":"cpd", "date":"2008","subject":"xyz",  "col": "tacomacomm", "cdm":"314", "id":"tchp314" },
+    { "title":"Shirley Aikin, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"315", "id":"tchp315" },
+    { "title":"Adriene Tillman, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"316", "id":"tchp316" },
+    { "title":"Cheryl Marie Coney, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"317", "id":"tchp317" },
+    { "title":"Shirley Aikin, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"318", "id":"tchp318" },
+    { "title":"Shirley Aikin, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"319", "id":"tchp319" },
+    { "title":"Adriene Tillman, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"320", "id":"tchp320" },
+    { "title":"Adriene Tillman, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"321", "id":"tchp321" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"322", "id":"tchp322" },
+    { "title":"Nurses Need to be Taken Care of, Too: Stories of Black Nurses in the Workplace", "format":"cpd", "date":"2011",  "col": "tacomacomm", "cdm":"323", "id":"tchp323" },
+    { "title":"Patty Rose, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"324", "id":"tchp324" },
+    { "title":"Ruan Murphy, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"325", "id":"tchp325" },
+    { "title":"Patty Rose, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"326", "id":"tchp326" },
+    { "title":"Patty Rose, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"327", "id":"tchp327" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"328", "id":"tchp328" },
+    { "title":"Patty Rose, Pierce County Central Labor Council", "format":"cpd", "date":"2011",  "col": "tacomacomm", "cdm":"329", "id":"tchp329" },
+    { "title":"Gloria Stancich, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"330", "id":"tchp330" },
+    { "title":"Marcie C. Pierson, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"331", "id":"tchp331" },
+    { "title":"Gloria Stancich, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"332", "id":"tchp332" },
+    { "title":"Gloria Stancich, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"333", "id":"tchp333" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"334", "id":"tchp334" },
+    { "title":"Splendid Gestures: Gloria Stancich and the Gay/Lesbian Community in Tacoma", "format":"cpd", "date":"2011",  "col": "tacomacomm", "cdm":"335", "id":"tchp335" },
+    { "title":"Justin Cudney, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"336", "id":"tchp336" },
+    { "title":"Theresa Power-Drutis, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"337", "id":"tchp337" },
+    { "title":"Theresa Power-Drutis, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"338", "id":"tchp338" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"339", "id":"tchp339" },
+    { "title":"Guadalupe House", "format":"cpd", "date":"2011",  "col": "tacomacomm", "cdm":"340", "id":"tchp340" },
+    { "title":"Shawn Boyd, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"341", "id":"tchp341" },
+    { "title":"Merwin Peters, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"342", "id":"tchp342" },
+    { "title":"Merwin Peters, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"343", "id":"tchp343" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"344", "id":"tchp344" },
+    { "title":"Serving on the USS Mason: Breaking Racial Barriers in the U.S. Navy", "format":"cpd", "date":"2011",  "col": "tacomacomm", "cdm":"345", "id":"tchp345" },
+    { "title":"Bil Moss, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"346", "id":"tchp346" },
+    { "title":"Kristina L. Walker, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"347", "id":"tchp347" },
+    { "title":"Bil Moss, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"348", "id":"tchp348" },
+    { "title":"Bil Moss, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"349", "id":"tchp349" },
+    { "title":"Bil Moss, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"350", "id":"tchp350" },
+    { "title":"Bil Moss, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"351", "id":"tchp351" },
+    { "title":"Bil Moss, interview transcript 3", "format":"application/pdf",   "col": "tacomacomm", "cdm":"352", "id":"tchp352" },
+    { "title":"Bil Moss, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"353", "id":"tchp353" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"354", "id":"tchp354" },
+    { "title":"Women and Tacomas Civil Rights Movement: Mrs. Bil Moss", "format":"cpd", "date":"2009",  "col": "tacomacomm", "cdm":"355", "id":"tchp355" },
+    { "title":"Jessica Dvorak, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"356", "id":"tchp356" },
+    { "title":"Carrie Little, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"357", "id":"tchp357" },
+    { "title":"Carrie Little, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"358", "id":"tchp358" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"359", "id":"tchp359" },
+    { "title":"Carrie Little and the Tacoma Community Gardening Movement", "format":"cpd", "date":"2011",  "col": "tacomacomm", "cdm":"360", "id":"tchp360" },
+    { "title":"Jenaro Castaeda, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"361", "id":"tchp361" },
+    { "title":"Yris Lance, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"362", "id":"tchp362" },
+    { "title":"Jenaro Castaeda, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"363", "id":"tchp363" },
+    { "title":"Jenaro Castaeda, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"364", "id":"tchp364" },
+    { "title":"Jenaro Castaeda, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"365", "id":"tchp365" },
+    { "title":"Jenaro Castaeda, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"366", "id":"tchp366" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"367", "id":"tchp367" },
+    { "title":"Mexican-Americans from Mexico to Washington State: Discrimination and Segregation in the Memory of One Witness", "format":"cpd", "date":"2007",  "col": "tacomacomm", "cdm":"368", "id":"tchp368" },
+    { "title":"Cecelia La Pointe-Gorman, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"369", "id":"tchp369" },
+    { "title":"Faye C. Bates, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"370", "id":"tchp370" },
+    { "title":"Faye C. Bates, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"371", "id":"tchp371" },
+    { "title":"Faye C. Bates, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"372", "id":"tchp372" },
+    { "title":"Faye C. Bates, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"373", "id":"tchp373" },
+    { "title":"Faye C. Bates, interview transcript 3", "format":"application/pdf",   "col": "tacomacomm", "cdm":"374", "id":"tchp374" },
+    { "title":"Faye C. Bates, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"375", "id":"tchp375" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"376", "id":"tchp376" },
+    { "title":"La-Sy-El: Daughter of Swinomish", "format":"cpd", "date":"2007","subject":"xyz",  "col": "tacomacomm", "cdm":"377", "id":"tchp377" },
+    { "title":"Dale Standley, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"378", "id":"tchp378" },
+    { "title":"Constance Standley, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"379", "id":"tchp379" },
+    { "title":"Dale Standley, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"380", "id":"tchp380" },
+    { "title":"Dale Standley, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"381", "id":"tchp381" },
+    { "title":"Dale Standley, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"382", "id":"tchp382" },
+    { "title":"Dale Standley, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"383", "id":"tchp383" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"384", "id":"tchp384" },
+    { "title":"The U.S. Navy During World War II: One Mans Experience", "format":"cpd", "date":"2007",  "col": "tacomacomm", "cdm":"385", "id":"tchp385" },
+    { "title":"Kevin Wallace, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"386", "id":"tchp386" },
+    { "title":"Richard Scharick, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"387", "id":"tchp387" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"388", "id":"tchp388" },
+    { "title":"The Drug War and Civil Rights", "format":"cpd", "date":"2007",  "col": "tacomacomm", "cdm":"389", "id":"tchp389" },
+    { "title":"Sister Mary Cabrini Rohr, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"390", "id":"tchp390" },
+    { "title":"M. Connie Smith, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"391", "id":"tchp391" },
+    { "title":"Sister Mary Cabrini Rohr, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"392", "id":"tchp392" },
+    { "title":"Sister Mary Cabrini Rohr, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"393", "id":"tchp393" },
+    { "title":"Sister Mary Cabrini Rohr, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"394", "id":"tchp394" },
+    { "title":"Sister Mary Cabrini Rohr, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"395", "id":"tchp395" },
+    { "title":"Sister Mary Cabrini Rohr, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"396", "id":"tchp396" },
+    { "title":"Sister Mary Cabrini Rohr, audio 4", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"397", "id":"tchp397" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"398", "id":"tchp398" },
+    { "title":"Sisters of Providence &amp; Sister Mary Francis Cabrini Rohr", "format":"cpd", "date":"1994","subject":"Rohr, Mary Cabrini, 1910-1997--Interviews; Nuns--Washington (State)--Olympia--Interviews; Nurses--Washington (State)--Olympia--Interviews; Nursing schools--Washington (State)--Olympia; Nursing--Study and teaching--Washington (State); St. Peter Hospital (Olympia, Wash.); Providence St. Peter Hospital (Olympia, Wash.); Sisters of Providence (Seattle, Wash.); Country life; Nuns as nurses; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"399", "id":"tchp399" },
+    { "title":"Lyle Quasim, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"409", "id":"tchp409" },
+    { "title":"Baboucarr Lowe, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"410", "id":"tchp410" },
+    { "title":"Lyle Quasim, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"411", "id":"tchp411" },
+    { "title":"Activism is about taking action: An Oral History with Lyle Quasim", "format":"cpd", "date":"2007",  "col": "tacomacomm", "cdm":"412", "id":"tchp412" },
+    { "title":"John Kingery, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"413", "id":"tchp413" },
+    { "title":"Bertil Johnson, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"414", "id":"tchp414" },
+    { "title":"Bertil Johnson, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"415", "id":"tchp415" },
+    { "title":"An Honorable Man", "format":"cpd", "date":"1994","subject":"Johnson, Bertil E., 1901-2003--Interviews; Judges--Washington (State)--Tacoma--Interviews; Lawyers--Washington (State)--Tacoma--Interviews; Civic leaders--Washington (State)--Interviews; Tacoma (Wash.)--History--Sources; Juvenile courts--Washington (State)--History--Sources",  "col": "tacomacomm", "cdm":"416", "id":"tchp416" },
+    { "title":"Andrew Fry, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"417", "id":"tchp417" },
+    { "title":"Dawn Lucien, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"418", "id":"tchp418" },
+    { "title":"Dawn Lucien, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"419", "id":"tchp419" },
+    { "title":"Dawn Lucien, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"420", "id":"tchp420" },
+    { "title":"Dawn Lucien, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"421", "id":"tchp421" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"422", "id":"tchp422" },
+    { "title":"Dawn Lucien: Civic Pride and the Ebb and Flow of Tacomas Development", "format":"cpd", "date":"2009",  "col": "tacomacomm", "cdm":"423", "id":"tchp423" },
+    { "title":"Nelda Jaeger-Kraemer, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"424", "id":"tchp424" },
+    { "title":"Kathryn S. Held, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"425", "id":"tchp425" },
+    { "title":"Robert Richard Kraemer, Jr, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"426", "id":"tchp426" },
+    { "title":"Betty Dahl-Kraemer, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"427", "id":"tchp427" },
+    { "title":"Renee Kraemer-Rhoads, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"428", "id":"tchp428" },
+    { "title":"A Woman of Firsts: Nelda Jaeger-Kraemer - Her Life as a Citizen of Tacoma for Ninety-two Years", "format":"cpd", "date":"1998","subject":"Jaeger-Kraemer, Nelda, 1887-1979; Women lawyers--Washington (State)--Tacoma--History--Sources; Women judges--Washington (State)--Tacoma--History--Sources; Jaeger family; Cramer family; Kitchen family; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"429", "id":"tchp429" },
+    { "title":"Lillian Walker, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"444", "id":"tchp444" },
+    { "title":"Carolyn Hershberger, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"445", "id":"tchp445" },
+    { "title":"Theresa Harmon, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"446", "id":"tchp446" },
+    { "title":"Lillian Walker, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"447", "id":"tchp447" },
+    { "title":"Lillian Walker, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"448", "id":"tchp448" },
+    { "title":"Carolyn Hershberger, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"449", "id":"tchp449" },
+    { "title":"Carolyn Hershberger, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"450", "id":"tchp450" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"451", "id":"tchp451" },
+    { "title":"The History of the Kitsap County Young Women&#39;s Christian Association", "format":"cpd", "date":"1993","subject":"Walker, Lillian (Lillian Allen), 1913-2012--Interviews; Hershberger, Carolyn, 1945---Interviews; Fine, Dorothy; Kruse, Jean; Volunteer workers in social service--Washington (State)--Kitsap County--Interviews; African American women--Washington (State)--Kitsap County--Interviews; Jewish women--Washington (State)--Kitsap County--Interviews. Women--Services for--Washington (State)--Kitsap County; Charities--Washington (State)--Kitsap County; YWCA of Kitsap County (Wash.); Alternatives to Living in a Violent Environment (ALIVE) Shelter",  "col": "tacomacomm", "cdm":"452", "id":"tchp452" },
+    { "title":"Dominic J. Tarabochia, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"453", "id":"tchp453" },
+    { "title":"Penny M. Tennison, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"454", "id":"tchp454" },
+    { "title":"Dominic and Rose Tarabochia, interview trascript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"455", "id":"tchp455" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"456", "id":"tchp456" },
+    { "title":"The Slavic Fishermen of the Puget Sound", "format":"cpd", "date":"1991","subject":"Tarabochia, Dominic J.--Interviews; Tarabochia, Rose J.--Interviews; Croatian Americans--Washington (State)--Gig Harbor--Interviews; Fishers--Washington (State)--Gig Harbor--Interviews; Fishers' spouses--Washington (State)--Gig Harbor--Interviews; Fishers' spouses--Washington (State)--Gig Harbor--Economic conditions; Fishers' spouses--Washington (State)--Gig Harbor--Social conditions; Purse seining; Real estate developers--Washington (State)--Gig Harbor--Interviews; Yugoslav Americans--Washington (State)--Gig Harbor--Interviews; Gig Harbor (Wash.)--Social life and customs",  "col": "tacomacomm", "cdm":"457", "id":"tchp457" },
+    { "title":"M. Rebecca Crist, research essay 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"458", "id":"tchp458" },
+    { "title":"Wardell Canada, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"459", "id":"tchp459" },
+    { "title":"Duncan Plymate, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"460", "id":"tchp460" },
+    { "title":"Isaac Morrow, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"461", "id":"tchp461" },
+    { "title":"Benjamin Williams, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"462", "id":"tchp462" },
+    { "title":"Douglas Woods and Rodney Rhymes, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"463", "id":"tchp463" },
+    { "title":"M. Rebecca Crist, research essay 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"464", "id":"tchp464" },
+    { "title":"Marlene Anderson, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"465", "id":"tchp465" },
+    { "title":"David Larson, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"466", "id":"tchp466" },
+    { "title":"Phil Rees, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"467", "id":"tchp467" },
+    { "title":"Longshore Workers in Tacoma", "format":"cpd", "date":"1995","subject":"Canada, Wardell; Morrow, Isaac; Rhymes, Rodney, 1960-; Woods, Douglas, 1950-; Anderson, Marlene, 1944- ; Rees, Phil (Stevedore); Stevedores--Washington (State)--Tacoma--Interviews; African Americans--Washington (State)--Tacoma--Interviews; International Longshore and Warehouse Union; Labor unions--Washington (State); Labor unions--United States; Mechanization--Social aspects--Washington (State)--Tacoma; African Americans--Employment--Washington (State)--Tacoma; Women--Employment--Washington (State)--Tacoma; Washington (State)--Economic conditions",  "col": "tacomacomm", "cdm":"468", "id":"tchp468" },
+    { "title":"Corinne and Grant Larson, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"469", "id":"tchp469" },
+    { "title":"Donald R. Tjossem, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"470", "id":"tchp470" },
+    { "title":"Grant Larson, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"471", "id":"tchp471" },
+    { "title":"Corinne and Grant Larson, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"472", "id":"tchp472" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"473", "id":"tchp473" },
+    { "title":"Taylor Bay History: An Interview with Grant Larson", "format":"cpd", "date":"2011",  "col": "tacomacomm", "cdm":"474", "id":"tchp474" },
+    { "title":"Cecelia La Pointe-Gorman, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"475", "id":"tchp475" },
+    { "title":"Ramona Bennett, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"476", "id":"tchp476" },
+    { "title":"Ramona Bennett, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"477", "id":"tchp477" },
+    { "title":"Ramona Bennett and Suzette Mills, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"478", "id":"tchp478" },
+    { "title":"Ramona Bennett and Suzette Mills, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"479", "id":"tchp479" },
+    { "title":"Ramona Bennett and Suzette Mills, interview transcript 3", "format":"application/pdf",   "col": "tacomacomm", "cdm":"480", "id":"tchp480" },
+    { "title":"Ramona Bennett and Suzette Mills, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"481", "id":"tchp481" },
+    { "title":"Ramona Bennett, interview transcript 4", "format":"application/pdf",   "col": "tacomacomm", "cdm":"482", "id":"tchp482" },
+    { "title":"Ramona Bennett, audio 4", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"483", "id":"tchp483" },
+    { "title":"Ramona Bennett, interview transcript 5", "format":"application/pdf",   "col": "tacomacomm", "cdm":"484", "id":"tchp484" },
+    { "title":"Ramona Bennett, audio 5", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"485", "id":"tchp485" },
+    { "title":"Ramona Bennett, audio 6", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"486", "id":"tchp486" },
+    { "title":"Ramona Bennett, interview transcript 6", "format":"application/pdf",   "col": "tacomacomm", "cdm":"487", "id":"tchp487" },
+    { "title":"Ramona Bennett, audio 7", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"488", "id":"tchp488" },
+    { "title":"Ramona Bennett, interview transcript 7", "format":"application/pdf",   "col": "tacomacomm", "cdm":"489", "id":"tchp489" },
+    { "title":"Ramona Bennett, audio 8", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"490", "id":"tchp490" },
+    { "title":"Ramona Bennett, audio 9", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"491", "id":"tchp491" },
+    { "title":"Ramona Bennett, audio 10", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"492", "id":"tchp492" },
+    { "title":"Ramona Bennett, audio 11", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"493", "id":"tchp493" },
+    { "title":"Ramona Bennett, audio 12", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"494", "id":"tchp494" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"495", "id":"tchp495" },
+    { "title":"Ramona Bennett: Puyallup Tribal Indian Activist", "format":"cpd", "date":"2009",  "col": "tacomacomm", "cdm":"496", "id":"tchp496" },
+    { "title":"Wilmott Ragsdale, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"497", "id":"tchp497" },
+    { "title":"Alicia J. Carter, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"498", "id":"tchp498" },
+    { "title":"Wilmott Ragsdale, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"499", "id":"tchp499" },
+    { "title":"Wilmott Ragsdale, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"500", "id":"tchp500" },
+    { "title":"Wilmott Ragsdale, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"501", "id":"tchp501" },
+    { "title":"Wilmott Ragsdale, audio 3", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"502", "id":"tchp502" },
+    { "title":"Wilmott Ragsdale, audio 4", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"503", "id":"tchp503" },
+    { "title":"Wilmott Ragsdale, audio 5", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"504", "id":"tchp504" },
+    { "title":"Wilmott Ragsdale, audio 6", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"505", "id":"tchp505" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"506", "id":"tchp506" },
+    { "title":"The Chronicles of the Life of Wilmott Ragsdale", "format":"cpd", "date":"2007",  "col": "tacomacomm", "cdm":"507", "id":"tchp507" },
+    { "title":"Lena Landry, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"508", "id":"tchp508" },
+    { "title":"Cecelia La Pointe-Gorman, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"509", "id":"tchp509" },
+    { "title":"Lena Landry, interview transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"510", "id":"tchp510" },
+    { "title":"Lena Landry, interview transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"511", "id":"tchp511" },
+    { "title":"Lena Landry, interview transcript 3", "format":"application/pdf",   "col": "tacomacomm", "cdm":"512", "id":"tchp512" },
+    { "title":"Lena Landry, interview transcript 4", "format":"application/pdf",   "col": "tacomacomm", "cdm":"513", "id":"tchp513" },
+    { "title":"Lena Landry, interview transcript 5", "format":"application/pdf",   "col": "tacomacomm", "cdm":"514", "id":"tchp514" },
+    { "title":"The Story of Lena Landry Davis: Puyallup Tribal Elder", "format":"cpd", "date":"2008",  "col": "tacomacomm", "cdm":"515", "id":"tchp515" },
+    { "title":"Shirley Winsley, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"516", "id":"tchp516" },
+    { "title":"Lorraine Wojahn, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"517", "id":"tchp517" },
+    { "title":"Joy Adams, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"518", "id":"tchp518" },
+    { "title":"Shirley Winsley, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"519", "id":"tchp519" },
+    { "title":"Lorraine Wojahn, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"520", "id":"tchp520" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"521", "id":"tchp521" },
+    { "title":"Then and Now: Women Legislators in Washington State", "format":"cpd", "date":"1998","subject":"Wojahn, Lorraine, 1920-2012--Interviews; Winsley, Shirley J., 1934- --Interviews; Women legislators--Washington (State)--Tacoma--Interviews; Women--Political activity--Washington (State)--History--Sources; Washington (State). Legislature. House of Representatives--History--Sources; Washington (State). Legislature. Senate--History--Sources; Tacoma (Wash.)--History",  "col": "tacomacomm", "cdm":"522", "id":"tchp522" },
+    { "title":"Dorothy Knight, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"523", "id":"tchp523" },
+    { "title":"Shawn Jenkins, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"524", "id":"tchp524" },
+    { "title":"Dorothy Knight, interview transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"525", "id":"tchp525" },
+    { "title":"Dorothy Knight, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"526", "id":"tchp526" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"527", "id":"tchp527" },
+    { "title":"Mid-Knight Run: The Story of One Family&#39;s Journey to the Northwest from the Deep South", "format":"cpd", "date":"2014",  "col": "tacomacomm", "cdm":"528", "id":"tchp528" },
+    { "title":"Brian Skiffington, Handbill photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"529", "id":"tchp529" },
+    { "title":"Zach Pattin, Research Essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"530", "id":"tchp530" },
+    { "title":"Brian Skiffington, Transcript A", "format":"application/pdf",   "col": "tacomacomm", "cdm":"531", "id":"tchp531" },
+    { "title":"Brian Skiffington, Transcript B", "format":"application/pdf",   "col": "tacomacomm", "cdm":"532", "id":"tchp532" },
+    { "title":"Brian Skiffington, Narrative transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"533", "id":"tchp533" },
+    { "title":"Project Bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"534", "id":"tchp534" },
+    { "title":"What We Built Came Out Of That Basement: Brian Skiffington on Hardcore Punk in Tacoma", "format":"cpd", "date":"2014",  "col": "tacomacomm", "cdm":"535", "id":"tchp535" },
+    { "title":"Maxine Mimms, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"536", "id":"tchp536" },
+    { "title":"Robin Eisenbacher, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"537", "id":"tchp537" },
+    { "title":"Maxine Mimms, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"538", "id":"tchp538" },
+    { "title":"Maxine Mimms, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"539", "id":"tchp539" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"540", "id":"tchp540" },
+    { "title":"An Interview with Dr. Maxine Mimms Ph.D.: Building a Learning Comunity in Tacoma&#39;s Hilltop Neighborhood", "format":"cpd", "date":"2014",  "col": "tacomacomm", "cdm":"541", "id":"tchp541" },
+    { "title":"Bill Bichsel, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"542", "id":"tchp542" },
+    { "title":"Lucas Dambergs, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"543", "id":"tchp543" },
+    { "title":"Bill Bichsel, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"544", "id":"tchp544" },
+    { "title":"Bill Bichsel, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"545", "id":"tchp545" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"546", "id":"tchp546" },
+    { "title":"Father Bill Bichsel and Disarm Now Plowshares", "format":"cpd", "date":"2014",  "col": "tacomacomm", "cdm":"547", "id":"tchp547" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"548", "id":"tchp548" },
+    { "title":"Julian McGilvery, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"549", "id":"tchp549" },
+    { "title":"James Walton, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"550", "id":"tchp550" },
+    { "title":"James Walton, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"551", "id":"tchp551" },
+    { "title":"James Walton: From Texas to Tacoma", "format":"cpd", "date":"2014",  "col": "tacomacomm", "cdm":"552", "id":"tchp552" },
+    { "title":"Robert Elofson, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"553", "id":"tchp553" },
+    { "title":"Jordan Woolston, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"554", "id":"tchp554" },
+    { "title":"Robert Elofson, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"555", "id":"tchp555" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"556", "id":"tchp556" },
+    { "title":"Robert Elofson: The Lower Elwha Klallam and the Return of Their River", "format":"cpd", "date":"2014",  "col": "tacomacomm", "cdm":"557", "id":"tchp557" },
+    { "title":"JoAnn Tryfon, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"558", "id":"tchp558" },
+    { "title":"Mark Kilner, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"559", "id":"tchp559" },
+    { "title":"JoAnn Tryfon, transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"560", "id":"tchp560" },
+    { "title":"JoAnn Tryfon, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"561", "id":"tchp561" },
+    { "title":"JoAnn Tryfon, transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"562", "id":"tchp562" },
+    { "title":"JoAnn Tryfon, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"563", "id":"tchp563" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"564", "id":"tchp564" },
+    { "title":"The Greek Community in Tacoma, Washington", "format":"cpd", "date":"2014",  "col": "tacomacomm", "cdm":"565", "id":"tchp565" },
+    { "title":"Tom Wilson, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"566", "id":"tchp566" },
+    { "title":"Maria Moore, transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"567", "id":"tchp567" },
+    { "title":"Maria Moore, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"568", "id":"tchp568" },
+    { "title":"Barbara Laxson, transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"569", "id":"tchp569" },
+    { "title":"Barbara Laxson, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"570", "id":"tchp570" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"571", "id":"tchp571" },
+    { "title":"The Burley Community: Preserving the Past", "format":"cpd", "date":"2015",  "col": "tacomacomm", "cdm":"572", "id":"tchp572" },
+    { "title":"Bill Sterud, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"573", "id":"tchp573" },
+    { "title":"Bill Sterud, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"574", "id":"tchp574" },
+    { "title":"Bill Sterud, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"575", "id":"tchp575" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"576", "id":"tchp576" },
+    { "title":"The Puyallup Land Claims Settlement: A Lesson in Struggle", "format":"cpd", "date":"2015",  "col": "tacomacomm", "cdm":"577", "id":"tchp577" },
+    { "title":"Alicia Pike, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"578", "id":"tchp578" },
+    { "title":"Kyle Chapman, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"579", "id":"tchp579" },
+    { "title":"Alicia Pike, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"580", "id":"tchp580" },
+    { "title":"Alicia Pike, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"581", "id":"tchp581" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"582", "id":"tchp582" },
+    { "title":"Alicia Pike, Point Defiance Zoo and Aquarium, and Point Defiance AAZK: Wildlife Conservation in Tacoma", "format":"cpd", "date":"2015",  "col": "tacomacomm", "cdm":"583", "id":"tchp583" },
+    { "title":"Morris McCollum, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"584", "id":"tchp584" },
+    { "title":"Jaynetha Robinson, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"585", "id":"tchp585" },
+    { "title":"Morris McCollum, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"586", "id":"tchp586" },
+    { "title":"Morris McCollum, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"587", "id":"tchp587" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"588", "id":"tchp588" },
+    { "title":"Morris McCollum: Tacoma&#39;s Hilltop Community Icon", "format":"cpd", "date":"2015",  "col": "tacomacomm", "cdm":"589", "id":"tchp589" },
+    { "title":"Joshua Wright, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"590", "id":"tchp590" },
+    { "title":"Peter Marsh, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"591", "id":"tchp591" },
+    { "title":"Peter Marsh, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"592", "id":"tchp592" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"593", "id":"tchp593" },
+    { "title":"Upholding the Hippocratic Oath: A Story of Medicine in Tacoma and its Fight Against AIDS", "format":"cpd", "date":"2015",  "col": "tacomacomm", "cdm":"594", "id":"tchp594" },
+    { "title":"Thanh Huynh, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"595", "id":"tchp595" },
+    { "title":"Nhung Huynh, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"596", "id":"tchp596" },
+    { "title":"Jennifer Nguyuen, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"597", "id":"tchp597" },
+    { "title":"Thanh Huynh, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"598", "id":"tchp598" },
+    { "title":"Thanh Huynh, audio", "format":"mp",   "col": "tacomacomm", "cdm":"599", "id":"tchp599" },
+    { "title":"Nhung Huynh, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"600", "id":"tchp600" },
+    { "title":"Nhung Huynh, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"601", "id":"tchp601" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"602", "id":"tchp602" },
+    { "title":"Blood, Sweat, and Tears: Nhung and Thanh Huynh&#39;s Oral History", "format":"cpd", "date":"2015",  "col": "tacomacomm", "cdm":"603", "id":"tchp603" },
+    { "title":"Jack McQuade, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"604", "id":"tchp604" },
+    { "title":"Alex Jaber, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"605", "id":"tchp605" },
+    { "title":"Jack McQuade, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"606", "id":"tchp606" },
+    { "title":"Jack McQuade, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"607", "id":"tchp607" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"608", "id":"tchp608" },
+    { "title":"Jack McQuade: Renewal of Historic Swiss Pub Coincides with Growth of the University of Washington Tacoma", "format":"cpd", "date":"2015",  "col": "tacomacomm", "cdm":"609", "id":"tchp609" },
+    { "title":"Eric Rader, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"610", "id":"tchp610" },
+    { "title":"Floyd Olson, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"611", "id":"tchp611" },
+    { "title":"Floyd Olson, audio1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"612", "id":"tchp612" },
+    { "title":"Floyd Olson, audio2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"613", "id":"tchp613" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"614", "id":"tchp614" },
+    { "title":"South Tacoma Then and Now", "format":"cpd", "date":"2015",  "col": "tacomacomm", "cdm":"615", "id":"tchp615" },
+    { "title":"Miguel Douglas, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"616", "id":"tchp616" },
+    { "title":"Karin Crelling, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"617", "id":"tchp617" },
+    { "title":"Gary Emmons, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"618", "id":"tchp618" },
+    { "title":"Gary Emmons, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"619", "id":"tchp619" },
+    { "title":"Karin Crelling, appendix", "format":"application/pdf",   "col": "tacomacomm", "cdm":"620", "id":"tchp620" },
+    { "title":"Telegrapher for the Northern Pacific Railway in Tacoma", "format":"cpd", "date":"2017","subject":"xyz",  "col": "tacomacomm", "cdm":"621", "id":"tchp621" },
+    { "title":"Katherine Jennison, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"622", "id":"tchp622" },
+    { "title":"Willie Stewart, audio 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"623", "id":"tchp623" },
+    { "title":"Willie Stewart, transcript 1", "format":"application/pdf",   "col": "tacomacomm", "cdm":"624", "id":"tchp624" },
+    { "title":"Willie Stewart, audio 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"625", "id":"tchp625" },
+    { "title":"Willie Stewart, transcript 2", "format":"application/pdf",   "col": "tacomacomm", "cdm":"626", "id":"tchp626" },
+    { "title":"Project Bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"627", "id":"tchp627" },
+    { "title":"Willie Stewart, appendix", "format":"application/pdf",   "col": "tacomacomm", "cdm":"628", "id":"tchp628" },
+    { "title":"When Races Collide: Willie Stewart and the Voluntary Desegregation of Tacoma Public Schools", "format":"cpd", "date":"2017","subject":"xyz",  "col": "tacomacomm", "cdm":"629", "id":"tchp629" },
+    { "title":"Laurie Arnold, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"630", "id":"tchp630" },
+    { "title":"TeyAnjulee Leon, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"631", "id":"tchp631" },
+    { "title":"Laurie Arnold, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"632", "id":"tchp632" },
+    { "title":"Laurie Arnold, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"633", "id":"tchp633" },
+    { "title":"Project Bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"634", "id":"tchp634" },
+    { "title":"Perspectives on Tacoma School Desegregation: From Wallflower to Rabble Rouser", "format":"cpd", "date":"2017","subject":"xyz",  "col": "tacomacomm", "cdm":"635", "id":"tchp635" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"640", "id":"tchp640" },
+    { "title":"Rachael Williamson, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"642", "id":"tchp642" },
+    { "title":"Nancy Shippentower-Games, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"643", "id":"tchp643" },
+    { "title":"Nancy Shippentower-Games, interview", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"644", "id":"tchp644" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"645", "id":"tchp645" },
+    { "title":"Still Fighting after All These Years: A Puyallup Tribal Member&#39;s Perspective", "format":"cpd", "date":"2017","subject":"xyz",  "col": "tacomacomm", "cdm":"646", "id":"tchp646" },
+    { "title":"Philip H. Red Eagle, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"647", "id":"tchp647" },
+    { "title":"Jordan Woolston, essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"648", "id":"tchp648" },
+    { "title":"Philip H. Red Eagle, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"649", "id":"tchp649" },
+    { "title":"Philip H. Red Eagle, interview 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"650", "id":"tchp650" },
+    { "title":"Philip H. Red Eagle, interview 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"651", "id":"tchp651" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"652", "id":"tchp652" },
+    { "title":"Philip H. Red Eagle", "format":"cpd", "date":"2017","subject":"xyz",  "col": "tacomacomm", "cdm":"653", "id":"tchp653" },
+    { "title":"Bruce Arneklev, portrait", "format":"image/jpg",   "col": "tacomacomm", "cdm":"654", "id":"tchp654" },
+    { "title":"Alyssa Urish, research essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"655", "id":"tchp655" },
+    { "title":"Bruce Arneklev, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"656", "id":"tchp656" },
+    { "title":"Bruce Arneklev, interview 1", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"657", "id":"tchp657" },
+    { "title":"Bruce Arneklev, interview 2", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"658", "id":"tchp658" },
+    { "title":"Project bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"659", "id":"tchp659" },
+    { "title":"Perspectives on Tacoma School Desegregation: From Family Values to Program Evaluation", "format":"cpd", "date":"2017","subject":"xyz",  "col": "tacomacomm", "cdm":"660", "id":"tchp660" },
+    { "title":"Research Essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"661", "id":"tchp661" },
+    { "title":"Crystal Inge, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"662", "id":"tchp662" },
+    { "title":"Crystal Inge, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"663", "id":"tchp663" },
+    { "title":"Crystal Inge, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"664", "id":"tchp664" },
+    { "title":"Miyoko Kanda, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"665", "id":"tchp665" },
+    { "title":"Miyoko Kanda, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"666", "id":"tchp666" },
+    { "title":"Miyoko Kanda, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"667", "id":"tchp667" },
+    { "title":"Donna Sasaki, photograph", "format":"image/jpg",   "col": "tacomacomm", "cdm":"668", "id":"tchp668" },
+    { "title":"Donna Sasaki, audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"669", "id":"tchp669" },
+    { "title":"Donna Sasaki, transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"670", "id":"tchp670" },
+    { "title":"Engaging Tacoma Buddhism: Acculturation at the Tacoma Buddhism Temple", "format":"cpd", "date":"2019","subject":"xyz",  "col": "tacomacomm", "cdm":"671", "id":"tchp671" },
+    { "title":"Farming in the Time of Pandemic delete", "format":"cpd", "date":"2020","subject":"Farms, Small;Local Foods; Food Secuirty; Covid-19 (Disease), Oral History",  "col": "tacomacomm", "cdm":"680", "id":"tchp680" },
+    { "title":"Joel Baranick and Ann Petricola, Audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"681", "id":"tchp681" },
+    { "title":"Kevin Jensen, Audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"682", "id":"tchp682" },
+    { "title":"Joel Baranick and Ann Petricola, Transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"683", "id":"tchp683" },
+    { "title":"Kevin Jensen, Transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"684", "id":"tchp684" },
+    { "title":"Joel Baranick and Ann Petricola, Photo", "format":"image/jpg",   "col": "tacomacomm", "cdm":"685", "id":"tchp685" },
+    { "title":"Kevin Jensen, Photo", "format":"image/jpg",   "col": "tacomacomm", "cdm":"686", "id":"tchp686" },
+    { "title":"Kevin Jensen, Joel Baranick, and Ann Petricola, Research Essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"687", "id":"tchp687" },
+    { "title":"Kevin Jensen, Joel Baranick, and Ann Petricola, Bibliography", "format":"application/pdf",   "col": "tacomacomm", "cdm":"688", "id":"tchp688" },
+    { "title":"Farming in the Time of Pandemic", "format":"cpd", "date":"2020","subject":"Farms, Small;Local Foods; Food Secuirty; Covid-19 (Disease), Oral History",  "col": "tacomacomm", "cdm":"689", "id":"tchp689" },
+    { "title":"Aida Mohajer and Ebrahimi, Research Essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"690", "id":"tchp690" },
+    { "title":"Aida Mohajer, Transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"691", "id":"tchp691" },
+    { "title":"Ebrahimi, Transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"692", "id":"tchp692" },
+    { "title":"Aida Mohajer, Audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"693", "id":"tchp693" },
+    { "title":"Ebrahimi, Audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"694", "id":"tchp694" },
+    { "title":"Pandemic in Her Baby Sling: The Iranian American Women&#39;s Story of Migration Traumas and Labor Hardship During 2020&#39;s COVID-19 Pandemic", "format":"cpd", "date":"2020","subject":"COVID-19 (Disease); Iranian American women; single mothers; immigrants; precarious employment; oral history",  "col": "tacomacomm", "cdm":"695", "id":"tchp695" },
+    { "title":"Zakariyya Alim and Mary Thompson, Research Essay", "format":"application/pdf",   "col": "tacomacomm", "cdm":"696", "id":"tchp696" },
+    { "title":"Zakariyya Alim, Audio", "format":"audio/mp3",   "col": "tacomacomm", "cdm":"697", "id":"tchp697" },
+    { "title":"Zakariyya Alim, Transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"698", "id":"tchp698" },
+    { "title":"Mary Thompson, Transcript", "format":"application/pdf",   "col": "tacomacomm", "cdm":"699", "id":"tchp699" }
+];
+
+/* init browse page */
+/* randomize items once at page load */
+shuffle(items);
+var query = "";
+/* filter if hash in initial URL */
+if(window.location.hash) {
+    query = decodeURIComponent(location.hash.substr(1));
+    $('#quickSearch').val(query);
+    filterItems(items,query);
+} else {
+    query = "";
+    filterItems(items,query);
+}
+/* add hash if search button clicked */ 
+$('#goButton').click( function() {
+    window.location.hash = encodeURIComponent($('#quickSearch').val());
+});
+/* add hash if if enter is pressed */
+$('#quickSearch').keypress(function(e){
+    if(e.which == 13){
+        window.location.hash = encodeURIComponent($('#quickSearch').val());
+    }
+});
+/* filter if hash changes */ 
+$(window).on("hashchange", function() {
+    // show spinner
+    $("#loading").show();
+    // read hash
+    query = decodeURIComponent(location.hash.substr(1));
+    $('#quickSearch').val(query);
+    // filter
+    filterItems(items,query);
+});
+
+/* item array sorting function */
+function sorting(json_object, key_to_sort_by) {
+    function sortByKey(a, b) {
+        var x = a[key_to_sort_by];
+        var y = b[key_to_sort_by];
+        if (typeof x === 'string' ) { x = x.toUpperCase(); }
+        if (typeof y === 'string' ) { y = y.toUpperCase(); }
+        return ((x==null) ? 1: (y==null) ? -1: (x < y) ? -1 : ((x > y) ? 1 : 0));
+    }
+
+    json_object.sort(sortByKey);
+};
+
+/* add sort function on click of sort options */
+$(".browse-sort-item").click(function (event) {
+    var field = $(this).data('filter'); // Get the text of the element
+    var dname = $(this).text(); // Get the text of the element
+    var query = $('#quickSearch').val();
+    $(".browse-sort-item").removeClass('active');
+    $(this).addClass('active');
+    $('#sortfilter').text(dname);
+    if (field != 'random') {
+        sorting(items, field);
+        filterItems(items, query);
+    }
+    else {
+        shuffle(items);
+        filterItems(items, query);
+    }
+}); 
+
+</script>
+
+
+    <script>
+    // When the user scrolls down from the top of the document, show the button
+    window.onscroll = function () {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("scroll-to-top").style.display = "block";
+        } else {
+            document.getElementById("scroll-to-top").style.display = "none";
+        }
+    }
+    // scroll to top function
+    function scrollToTop() {
+        $('html, body').animate({scrollTop: 0}, 750);
+    }
+</script>
+<button id="scroll-to-top" type="button" class="btn btn-link btn-lg" onclick="scrollToTop();" title="Back to Top" aria-label="Back to Top">
+    <span class="fa fa-angle-double-up fa-stack-1x" ></span>
+</button>
+  </body>
+</html>

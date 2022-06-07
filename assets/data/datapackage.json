@@ -1,0 +1,140 @@
+{
+    "profile": "data-package",
+    "name": "tchp-demo-data",
+    "title": "TCHP Demo Data",
+    "description": "Metadata and data derived from TCHP Demo. CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s.",
+    "keywords":  ["tacoma","oral history","community"],
+    "homepage": "erika-b.github.io/tchp_dev/",
+    "contributors": [
+        {
+            "title": "",
+            "path": "",
+            "role": "author"
+        }
+    ],
+    "image": "https://digitalcollections.lib.washington.edu//digital/iiif/tacomacomm//full/max/0/default.jpg",
+    "licenses": [
+        {
+            "name": "CC0-1.0",
+            "title": "CC0 1.0",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    ],
+    "resources": [
+         
+        {
+            "name": "facets-json",
+            "path": "facets.json",
+            "title": "TCHP Demo Metadata Facets",
+            "description":"Unique values and counts of metadata facet fields.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "subject-csv",
+            "path": "subjects.csv",
+            "title": "TCHP Demo metadata subject counts in csv",
+            "description": "Unique values and counts of metadata subject fields.",
+            "format":"csv",
+            "profile":"tabular-data-resource",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subject",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "count",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "link",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "subjects-json",
+            "path": "subjects.json",
+            "title": "TCHP Demo  metadata subject counts in json",
+            "description":"Unique values and counts of metadata subject fields.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "locations-csv",
+            "path": "subjects.csv",
+            "title": "TCHP Demo metadata location counts in csv",
+            "description": "Unique values and counts of metadata location fields.",
+            "format":"csv",
+            "profile":"tabular-data-resource",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "count",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "link",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "locations-json",
+            "path": "locations.json",
+            "title": "TCHP Demo metadata location counts in json",
+            "description":"Unique values and counts of metadata location fields.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "geodata-json",
+            "path": "geodata.json",
+            "title": "TCHP Demo geographic metadata",
+            "description": "Geojson data containing all objects with lat-longs and associated descriptive metadata.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "timeline-json",
+            "path": "timelinejs.json",
+            "title": "TCHP Demo timeline metadata",
+            "description": "Time-based metadata formatted for TimelineJS or other applications.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        {
+            "name": "metadata-csv",
+            "path": "metadata.csv",
+            "title": "TCHP Demo full metadata in csv",
+            "description": "Complete metadata export for TCHP Demo objects.",
+            "format":"csv",
+            "profile":"data-resource"
+        },
+        {
+            "name": "metadata-json",
+            "path": "metadata.json",
+            "title": "TCHP Demo full metadata in json",
+            "description": "Complete metadata export for TCHP Demo objects.",
+            "format":"json",
+            "profile":"data-resource"
+        }
+    ]
+}
