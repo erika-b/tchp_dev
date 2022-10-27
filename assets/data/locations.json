@@ -9,7 +9,6 @@
     { "location" : "united states--washington--tacoma", "count" : 2, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states--washington--tacoma" },
     { "location" : "united states--washington (state)--seattle", "count" : 2, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states--washington%20(state)--seattle" },
     { "location" : "united states--washington (state)--olympia", "count" : 2, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states--washington%20(state)--olympia" },
-    { "location" : "united states—washington (state)—pierce county", "count" : 2, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states%E2%80%94washington%20(state)%E2%80%94pierce%20county" },
     { "location" : "united states--washington (state)--longbranch", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states--washington%20(state)--longbranch" },
     { "location" : "united states--washington (state)--key peninsula", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states--washington%20(state)--key%20peninsula" },
     { "location" : "united states--washington (state)--hoqiuam", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states--washington%20(state)--hoqiuam" },
@@ -54,6 +53,7 @@
     { "location" : "united states -- montana (state)", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states%20--%20montana%20(state)" },
     { "location" : "united states -- alaska (state) -- sitka", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states%20--%20alaska%20(state)%20--%20sitka" },
     { "location" : "united states -- washington -- seattle", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states%20--%20washington%20--%20seattle" },
+    { "location" : "united states—washington (state)—pierce county", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states%E2%80%94washington%20(state)%E2%80%94pierce%20county" },
     { "location" : "united states—washington (state)—tacoma", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states%E2%80%94washington%20(state)%E2%80%94tacoma" },
     { "location" : "united states—washington (state)—seattle", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states%E2%80%94washington%20(state)%E2%80%94seattle" },
     { "location" : "united states—washington (state)—kirkland", "count" : 1, "link" : "erika-b.github.io/tchp_dev/browse.html#united%20states%E2%80%94washington%20(state)%E2%80%94kirkland" }

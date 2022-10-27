@@ -25,10 +25,6 @@
                 "tacoma (wash.)--history--sources": 2,
                 "hilltop (tacoma, wash.)": 2,
                 "businesspeople--washington (state)--tacoma--interviews": 2,
-                "farms, small": 2,
-                "local foods": 2,
-                "food secuirty": 2,
-                "covid-19 (disease), oral history": 2,
                 "otto, bill, 1900- --interviews": 1,
                 "pioneers--washington (state)--key peninsula--interviews": 1,
                 "family farms--washington (state)--key peninsula": 1,
@@ -361,6 +357,10 @@
                 "women--political activity--washington (state)--history--sources": 1,
                 "washington (state). legislature. house of representatives--history--sources": 1,
                 "washington (state). legislature. senate--history--sources": 1,
+                "farms, small": 1,
+                "local foods": 1,
+                "food secuirty": 1,
+                "covid-19 (disease), oral history": 1,
                 "covid-19 (disease)": 1,
                 "iranian american women": 1,
                 "single mothers": 1,
@@ -379,7 +379,7 @@
             "terms": { 
                 "application/pdf": 316,
                 "audio/mp3": 149,
-                "cpd": 83,
+                "cpd": 82,
                 "image/jpg": 74,
                 "mp": 3
             }
