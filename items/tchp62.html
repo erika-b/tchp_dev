@@ -141,22 +141,40 @@
 </nav>
 
     <main id="maincontent" role="main" class="flex-shrink-0">
-      <div class="container mt-2 mb-4">
+      <div class="container py-3">
     <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/tchp_dev/">Home</a></li>
-        <li class="breadcrumb-item"><a href="/tchp_dev/browse.html">Items</a></li>
+        <li class="breadcrumb-item"><a href="erika-b.github.io/tchp_dev/">Home</a></li>
+        <li class="breadcrumb-item"><a href="erika-b.github.io/tchp_dev/browse.html">Items</a></li>
         <li class="breadcrumb-item active">Hillside Community Church: A Path to Liberalism</li>
     </ul>
 
     <div class="row">
         <div class="col-md-6" id="lightgallery">
             <div class="card mb-4 text-center">
-                <div class="mt-4">
-                    <p><a href="" target="_blank"><img src="https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/62" alt="item thumbnail for Hillside Community Church: A Path to Liberalism" class="img-fluid thumb"></a></p>
-                </div><div class="my-2">
+               
+                
+                
+                <div class="gallery-img" data-src="https://digitalcollections.lib.washington.edu//digital/iiif/tacomacomm/59/full/max/0/default.jpg">
+                    <p><img src="https://digitalcollections.lib.washington.edu//digital/iiif/tacomacomm/59/full/pct:20/0/default.jpg" alt="Hillside Community Church: A Path to Liberalism" alt="item thumbnail" class="img-fluid"></p>
+                    <p><small>Click to view full screen</small></p>
+                </div>
+                
+                
+                <div class="card  py-4">
+                        <h3 class="mb-4">Transcript</h3>
+                    <a id="transcript-download" href="https://digitalcollections.lib.washington.edu//utils/getfile/collection/tacomacomm/id/60.pdf" target="_blank"><img src="https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/60" alt="Robert Ewing, research essay" alt="item thumbnail" class="img-fluid thumb"></a>
+                </div>
+                
+                
+                <div class="card  py-4">
+                        <h3 class="mb-4">Transcript</h3>
+                    <a id="transcript-download" href="https://digitalcollections.lib.washington.edu//utils/getfile/collection/tacomacomm/id/61.pdf" target="_blank"><img src="https://digitalcollections.lib.washington.edu//utils/getthumbnail/collection/tacomacomm/id/61" alt="Milton Andrews, interview transcript" alt="item thumbnail" class="img-fluid thumb"></a>
+                </div>
+                <div class="my-2">
                     
-                    <a target="_blank" href="" class="btn btn-outline-info">Download CPD</a>
-                    <a href="/tchp_dev/timeline.html#1992" class="ml-2 btn btn-outline-info">View on Timeline</a>
+                    <button target="_blank" onclick="document.getElementById('transcript-download').click();" class="btn btn-outline-info" title="Object download">Download Transcript</button>
+                    
+                    <!-- <a href="/tchp_dev/timeline.html#1992" class="ml-2 btn btn-outline-info">View on Timeline</a> -->
                     
                 </div>
             </div>
@@ -189,19 +207,19 @@
                         
                         
                         
-                        <a class="mr-3" href="/tchp_dev/browse.html#Andrews,%20Milton%20P.--Interviews">Andrews, Milton P.--Interviews</a>
+                        <a class="filter mr-3" data-filter="Andrews, Milton P.--Interviews" href="/tchp_dev/browse.html#Andrews,%20Milton%20P.--Interviews">Andrews, Milton P.--Interviews</a>
                         
-                        <a class="mr-3" href="/tchp_dev/browse.html#Hillside%20Community%20Church%20(Tacoma,%20Wash.)">Hillside Community Church (Tacoma, Wash.)</a>
+                        <a class="filter mr-3" data-filter="Hillside Community Church (Tacoma, Wash.)" href="/tchp_dev/browse.html#Hillside%20Community%20Church%20(Tacoma,%20Wash.)">Hillside Community Church (Tacoma, Wash.)</a>
                         
-                        <a class="mr-3" href="/tchp_dev/browse.html#Religious%20leaders--Washington%20(State)--Tacoma--Interviews">Religious leaders--Washington (State)--Tacoma--Interviews</a>
+                        <a class="filter mr-3" data-filter="Religious leaders--Washington (State)--Tacoma--Interviews" href="/tchp_dev/browse.html#Religious%20leaders--Washington%20(State)--Tacoma--Interviews">Religious leaders--Washington (State)--Tacoma--Interviews</a>
                         
-                        <a class="mr-3" href="/tchp_dev/browse.html#Church%20and%20social%20problems--Washington%20(State)--Tacoma">Church and social problems--Washington (State)--Tacoma</a>
+                        <a class="filter mr-3" data-filter="Church and social problems--Washington (State)--Tacoma" href="/tchp_dev/browse.html#Church%20and%20social%20problems--Washington%20(State)--Tacoma">Church and social problems--Washington (State)--Tacoma</a>
                         
-                        <a class="mr-3" href="/tchp_dev/browse.html#Methodist%20Church--United%20States--Clergy--Interviews">Methodist Church--United States--Clergy--Interviews</a>
+                        <a class="filter mr-3" data-filter="Methodist Church--United States--Clergy--Interviews" href="/tchp_dev/browse.html#Methodist%20Church--United%20States--Clergy--Interviews">Methodist Church--United States--Clergy--Interviews</a>
                         
-                        <a class="mr-3" href="/tchp_dev/browse.html#Political%20activists--Washington%20(State)--Tacoma--Interviews">Political activists--Washington (State)--Tacoma--Interviews</a>
+                        <a class="filter mr-3" data-filter="Political activists--Washington (State)--Tacoma--Interviews" href="/tchp_dev/browse.html#Political%20activists--Washington%20(State)--Tacoma--Interviews">Political activists--Washington (State)--Tacoma--Interviews</a>
                         
-                        <a class="mr-3" href="/tchp_dev/browse.html#Tacoma%20(Wash.)--Church%20history--20th%20century">Tacoma (Wash.)--Church history--20th century</a>
+                        <a class="filter mr-3" data-filter="Tacoma (Wash.)--Church history--20th century" href="/tchp_dev/browse.html#Tacoma%20(Wash.)--Church%20history--20th%20century">Tacoma (Wash.)--Church history--20th century</a>
                         
                         
                     </dd>
@@ -236,12 +254,18 @@
                         cpd
                     </dd>
                     
+                    <dt class="field">:</dt>
+                    <dd class="field-value">
+                        
+                        http://rightsstatements.org/page/InC-EDU/1.0/?language=en
+                    </dd>
+                    
                 </dl>
             </div>
         </div>
     </div>
 
-    <div class="row justify-content-end mt-4">
+    <!--<div class="row justify-content-end mt-4">
         <div class="col-md-5">
             <div class="card mb-2">
                 <div class="card-header">Source</div>
@@ -256,33 +280,20 @@
             </div>
         </div>
         
-        <div class="col-md-5">
-            <div class="card mb-2">
-                <div class="card-header">Rights</div>
-                <div class="card-body">
-                    <dl>
-                        
-                        <dt>Standardized Rights:</dt>
-                        <dd><a target="_blank" rel="noopener" href="http://rightsstatements.org/page/InC-EDU/1.0/?language=en">http://rightsstatements.org/page/InC-EDU/1.0/?language=en</a>
-                        </dd>
-                    </dl>
-                </div>
-            </div>
-        </div>
-        
-    </div>
+    </div>-->
     
     <div class="text-center">
-        <a class="btn btn-secondary" href="/tchp_dev/items/tchp61.html" id="prev-page-button">&laquo; Previous</a>
+        <a class="btn btn-secondary" href="/tchp_dev/items/tchp54.html" id="prev-page-button">&laquo; Previous</a>
         <a class="btn btn-secondary" href="/tchp_dev/browse.html" >Back to Browse</a>
-        <a class="btn btn-secondary" href="/tchp_dev/items/tchp63.html" id="next-page-button">Next &raquo;</a>
+        <a class="btn btn-secondary" href="/tchp_dev/items/tchp66.html" id="next-page-button">Next &raquo;</a>
     </div>
     <div id="item-nav">
         <div class="d-none d-md-block">
-            <a class="previous btn btn-lg btn-secondary" href="/tchp_dev/items/tchp61.html">&laquo;</a>
-            <a class="next btn btn-lg btn-secondary" href="/tchp_dev/items/tchp63.html">&raquo;</a>
+            <a class="previous btn btn-lg btn-secondary" href="/tchp_dev/items/tchp54.html">&laquo;</a>
+            <a class="next btn btn-lg btn-secondary" href="/tchp_dev/items/tchp66.html">&raquo;</a>
         </div>
     </div></div>
+
     </main>
     <footer class="bg-dark pt-4 mt-auto container-fluid">
 
