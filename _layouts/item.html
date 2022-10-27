@@ -2,22 +2,44 @@
 layout: default
 gallery: true
 ---
-{%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
-<div class="container mt-2 mb-4">
+{%- assign fields = site.data.config-metadata -%}
+{%- assign compound = page.compound | remove: " " | split: ";" -%}
+{%- assign items = site.data[site.metadata] -%}
+<div class="container py-3">
     <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li class="breadcrumb-item"><a href="{{ '/browse.html' | relative_url }}">Items</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/' | absolute_url }}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/browse.html' | absolute_url }}">Items</a></li>
         <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
     </ul>
 
     <div class="row">
         <div class="col-md-6" id="lightgallery">
             <div class="card mb-4 text-center">
-                {% if page.format contains 'image' %}
+               {% if page.compound %}
+                {%for c in compound%}
+                {%- assign cpd = items | where_exp: 'item', 'item.cdmid == c' -%}
+                {% for item in cpd %}
+                {% if item.format contains 'image' %}
                 <div class="gallery-img" data-src="{% include image/original.html %}">
-                    <p><img src="{% include image/large.html %}" alt="item thumbnail for {{ page.title | escape }}" class="img-fluid"></p>
+                    <p><img src="{% include image/small.html %}" alt="{{ page.title | escape }}" alt="item thumbnail" class="img-fluid"></p>
                     <p><small>Click to view full screen</small></p>
                 </div>
+                {% elsif item.format contains 'pdf' %}
+                <div class="card  py-4">
+                        <h3 class="mb-4">Transcript</h3>
+                    <a id="transcript-download" href="{% include download/pdf.html %}" target="_blank"><img src="{% include image/thumb.html %}" alt="{{ item.title | escape }}" alt="item thumbnail" class="img-fluid thumb"></a>
+                </div>
+                {% elsif item.format contains 'mp3' %}
+                <div class="card  py-4">
+                    <h3 class="mb-4">Audio</h3>
+                <audio controls class="mp3-item-player">
+                    <source src="{{ site.cdm-url }}/utils/getstream/collection/{{ site.cdm-collection-id }}/id/{{ item.cdmid }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio></div>
+                {%- else -%}
+                {%- endif -%}
+                {%- endfor -%}
+                {%- endfor -%}
                 {%- else -%}
                 <div class="mt-4">
                     <p>
@@ -41,11 +63,13 @@ gallery: true
                 {%- endif -%}
                 <div class="my-2">
                     {% if page.youtubeid %}
-                    <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v={{ page.youtubeid }}" class="btn btn-outline-info">View on YouTube</a>
-                    {% else %}
-                    <a target="_blank" href="{% include download/item.html %}" class="btn btn-outline-info">Download {{ page.format | split: '/' | last | upcase }}</a>{% endif %}
-                    {% if page.date %}{%- capture year -%}{% if page.date contains "-" %}{{ page.date | split: "-" | first }}{% elsif page.date contains "/" %}{{ page.date | split: "/" | last }}{% else %}{{ page.date }}{% endif %}{%- endcapture -%}
-                    <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" class="ml-2 btn btn-outline-info">View on Timeline</a>{% endif %}
+                    <a target="_blank" href="https://www.youtube.com/watch?v={{ youtubeid }}" class="btn btn-outline-info" title="Object download">View on YouTube</a>
+                    {%elsif page.compound%}
+                    <button target="_blank" onclick="document.getElementById('transcript-download').click();" class="btn btn-outline-info" title="Object download">Download Transcript</button>
+                    {% else %} 
+                    <a target="_blank" href="{% include download/item.html %}" class="btn btn-outline-info" title="Object download">Download {{ page.format | split: '/' | last | upcase }}</a>{% endif %}
+                    <!-- {% if page.date %}{%- capture year -%}{% if page.date contains "-" %}{{ page.date | split: "-" | first }}{% elsif page.date contains "/" %}{{ page.date | split: "/" | last }}{% else %}{{ page.date }}{% endif %}{%- endcapture -%}
+                    <a href="{{ year | strip | prepend: '/timeline.html#' | relative_url }}" class="ml-2 btn btn-outline-info">View on Timeline</a>{% endif %} -->
                     {% if page.latitude and page.longitude %}
                     <a href="{{ '/map.html#' | append: page.latitude  | append: ',' | append: page.longitude | relative_url}}" class="ml-2 btn btn-outline-info">View on Map</a>{% endif %}
                 </div>
@@ -61,7 +85,7 @@ gallery: true
                         {% if f.browse_link == "true" %}
                         {% assign topics = page[f.field] | split: ";" %}
                         {% for t in topics %}
-                        <a class="mr-3" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
+                        <a class="filter mr-3" data-filter="{{ t | strip | escape }}" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
                         {% endfor %}
                         {% else %}
                         {{ page[f.field] | replace: '""','"' }}{% endif %}
@@ -72,7 +96,7 @@ gallery: true
         </div>
     </div>
 
-    <div class="row justify-content-end mt-4">
+    <!--<div class="row justify-content-end mt-4">
         <div class="col-md-5">
             <div class="card mb-2">
                 <div class="card-header">Source</div>
@@ -86,7 +110,7 @@ gallery: true
                 </div>
             </div>
         </div>
-        {% if page.rights or page.rightsstatement %}
+        {% if page.rights or page.rightsstatment %}
         <div class="col-md-5">
             <div class="card mb-2">
                 <div class="card-header">Rights</div>
@@ -102,20 +126,20 @@ gallery: true
             </div>
         </div>
         {% endif %}
-    </div>
+    </div>-->
 
     {%- if site.data.theme.browse-buttons == true -%}
     {% assign itemset = site.data[site.metadata] | map: 'objectid' | compact %}
     {% assign last = itemset | size | minus: 1 %}
     {% unless page.index_number == 0 %}
-    {% assign back = page.index_number | minus: 1 %}
+    {% assign back = page.index_number | minus: 4 %}
     {% else %}
     {% assign back = last %}
     {%- endunless -%}
     {% unless page.index_number == last %}
-    {% assign forward = page.index_number | plus: 1 %}
+    {% assign forward = page.index_number | plus: 4 %}
     {% else %}
-    {% assign forward = 0 %}
+    {% assign forward = 3 %}
     {%- endunless -%}
     {%- assign back_url = '/items/' | append: itemset[back] | append: '.html' | relative_url -%}
     {%- assign forward_url = '/items/' | append: itemset[forward] | append: '.html' | relative_url -%}
